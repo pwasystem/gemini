@@ -1,0 +1,10 @@
+#button1{
+	visibility:hidden;
+	margin-left:8px;
+}
+#imageAdd:valid ~ #button1{
+	visibility:visible;
+}
+#imageList{
+	cursor:pointer;
+}

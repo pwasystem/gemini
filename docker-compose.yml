@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  node:
+    image: ai-node
+    container_name: IAServe
+    build: .
+    expose:
+      - 80
+    ports:
+      - "80:80"
+    volumes:
+      - ./node:/node
+    working_dir: /node

@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+  </head>
+  <body>
+	<label for='archives'>Archives:</label>
+	<input type='file' id='archives' name='archives' multiple>
+	<button type='button' id='send' name='send' onclick='archivesLoad()'>
+		Send
+	</button>
+	<details>
+		<summary>Images</summary>
+		<div id="view"></div>
+	</details>
+	<details>
+		<summary>JSON</summary>
+		<pre id="json"></pre>
+	</details>
+	
+    <script>
+		let net;
+		var images = [] ;
+		async function app(files) {
+			console.log('Loading mobilenet..');
+			net = await mobilenet.load();
+			console.log('Successfully loaded model');
+			for(i=0; i<files; i++){
+				let imgEl = document.getElementById('img'+i);
+				let result = await net.classify(imgEl);
+				images.push({
+					name : document.getElementById('img'+i).name,
+					descriptions: {
+						high : {
+							percent : parseInt(result[0].probability*100) ,
+							description : result[0].className
+						},
+						medium : {
+							percent : parseInt(result[1].probability*100) ,
+							description : result[1].className
+						},
+						low : {
+							percent : parseInt(result[2].probability*100) ,
+							description : result[2].className
+						}
+					}
+				});
+				document.getElementById('fig'+i).innerHTML = parseInt(result[0].probability*100)+'% '+result[0].className+'<br>'+parseInt(result[1].probability*100)+'% '+result[1].className+'<br>'+parseInt(result[2].probability*100)+'% '+result[2].className;
+			}
+			json.innerText=JSON.stringify(images,null,'\t');
+		}
+		function archivesLoad() {
+			for (i = 0; i < archives.files.length; i++) {
+				view.innerHTML += "<figure><img src='img/"+archives.files[i].name+"' name='"+archives.files[i].name+"' id='img"+i+"'><figcaption id='fig"+i+"'></figcaption></figure>";
+			}
+			app(i);
+		}
+	</script>
+  </body>
+</html>

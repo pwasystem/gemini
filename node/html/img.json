@@ -1,0 +1,5119 @@
+[
+	{
+		"name": "00741003.webp",
+		"descriptions": {
+			"high": {
+				"percent": 54,
+				"description": "crate"
+			},
+			"medium": {
+				"percent": 22,
+				"description": "lumbermill, sawmill"
+			},
+			"low": {
+				"percent": 18,
+				"description": "maze, labyrinth"
+			}
+		}
+	},
+	{
+		"name": "00741004.webp",
+		"descriptions": {
+			"high": {
+				"percent": 18,
+				"description": "military uniform"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "holster"
+			},
+			"low": {
+				"percent": 10,
+				"description": "carpenter's kit, tool kit"
+			}
+		}
+	},
+	{
+		"name": "00741071.webp",
+		"descriptions": {
+			"high": {
+				"percent": 85,
+				"description": "bathing cap, swimming cap"
+			},
+			"medium": {
+				"percent": 3,
+				"description": "screw"
+			},
+			"low": {
+				"percent": 1,
+				"description": "chain"
+			}
+		}
+	},
+	{
+		"name": "00741076.webp",
+		"descriptions": {
+			"high": {
+				"percent": 95,
+				"description": "volcano"
+			},
+			"medium": {
+				"percent": 1,
+				"description": "alp"
+			},
+			"low": {
+				"percent": 0,
+				"description": "church, church building"
+			}
+		}
+	},
+	{
+		"name": "00741078.webp",
+		"descriptions": {
+			"high": {
+				"percent": 29,
+				"description": "parachute, chute"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "pole"
+			},
+			"low": {
+				"percent": 12,
+				"description": "chimpanzee, chimp, Pan troglodytes"
+			}
+		}
+	},
+	{
+		"name": "00741079.webp",
+		"descriptions": {
+			"high": {
+				"percent": 76,
+				"description": "fire engine, fire truck"
+			},
+			"medium": {
+				"percent": 4,
+				"description": "ambulance"
+			},
+			"low": {
+				"percent": 2,
+				"description": "gas pump, gasoline pump, petrol pump, island dispenser"
+			}
+		}
+	},
+	{
+		"name": "00741080.webp",
+		"descriptions": {
+			"high": {
+				"percent": 56,
+				"description": "limousine, limo"
+			},
+			"medium": {
+				"percent": 35,
+				"description": "fire engine, fire truck"
+			},
+			"low": {
+				"percent": 3,
+				"description": "cab, hack, taxi, taxicab"
+			}
+		}
+	},
+	{
+		"name": "00741081.webp",
+		"descriptions": {
+			"high": {
+				"percent": 29,
+				"description": "laptop, laptop computer"
+			},
+			"medium": {
+				"percent": 18,
+				"description": "projector"
+			},
+			"low": {
+				"percent": 17,
+				"description": "notebook, notebook computer"
+			}
+		}
+	},
+	{
+		"name": "00741086.webp",
+		"descriptions": {
+			"high": {
+				"percent": 36,
+				"description": "mountain bike, all-terrain bike, off-roader"
+			},
+			"medium": {
+				"percent": 22,
+				"description": "crash helmet"
+			},
+			"low": {
+				"percent": 14,
+				"description": "moped"
+			}
+		}
+	},
+	{
+		"name": "00741089.webp",
+		"descriptions": {
+			"high": {
+				"percent": 21,
+				"description": "shoe shop, shoe-shop, shoe store"
+			},
+			"medium": {
+				"percent": 16,
+				"description": "sunglasses, dark glasses, shades"
+			},
+			"low": {
+				"percent": 8,
+				"description": "clog, geta, patten, sabot"
+			}
+		}
+	},
+	{
+		"name": "00741090.webp",
+		"descriptions": {
+			"high": {
+				"percent": 65,
+				"description": "solar dish, solar collector, solar furnace"
+			},
+			"medium": {
+				"percent": 25,
+				"description": "apiary, bee house"
+			},
+			"low": {
+				"percent": 0,
+				"description": "park bench"
+			}
+		}
+	},
+	{
+		"name": "00741091.webp",
+		"descriptions": {
+			"high": {
+				"percent": 26,
+				"description": "switch, electric switch, electrical switch"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "dumbbell"
+			},
+			"low": {
+				"percent": 15,
+				"description": "bow tie, bow-tie, bowtie"
+			}
+		}
+	},
+	{
+		"name": "00741092.webp",
+		"descriptions": {
+			"high": {
+				"percent": 14,
+				"description": "canoe"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "barrow, garden cart, lawn cart, wheelbarrow"
+			},
+			"low": {
+				"percent": 11,
+				"description": "paddle, boat paddle"
+			}
+		}
+	},
+	{
+		"name": "00741093.webp",
+		"descriptions": {
+			"high": {
+				"percent": 78,
+				"description": "bookshop, bookstore, bookstall"
+			},
+			"medium": {
+				"percent": 16,
+				"description": "library"
+			},
+			"low": {
+				"percent": 3,
+				"description": "comic book"
+			}
+		}
+	},
+	{
+		"name": "00741094.webp",
+		"descriptions": {
+			"high": {
+				"percent": 38,
+				"description": "butcher shop, meat market"
+			},
+			"medium": {
+				"percent": 34,
+				"description": "lab coat, laboratory coat"
+			},
+			"low": {
+				"percent": 5,
+				"description": "oxygen mask"
+			}
+		}
+	},
+	{
+		"name": "00741095.webp",
+		"descriptions": {
+			"high": {
+				"percent": 45,
+				"description": "grocery store, grocery, food market, market"
+			},
+			"medium": {
+				"percent": 21,
+				"description": "bakery, bakeshop, bakehouse"
+			},
+			"low": {
+				"percent": 12,
+				"description": "confectionery, confectionary, candy store"
+			}
+		}
+	},
+	{
+		"name": "00741096.webp",
+		"descriptions": {
+			"high": {
+				"percent": 42,
+				"description": "cloak"
+			},
+			"medium": {
+				"percent": 18,
+				"description": "academic gown, academic robe, judge's robe"
+			},
+			"low": {
+				"percent": 13,
+				"description": "mortarboard"
+			}
+		}
+	},
+	{
+		"name": "00741097.webp",
+		"descriptions": {
+			"high": {
+				"percent": 53,
+				"description": "shoji"
+			},
+			"medium": {
+				"percent": 32,
+				"description": "window shade"
+			},
+			"low": {
+				"percent": 6,
+				"description": "prison, prison house"
+			}
+		}
+	},
+	{
+		"name": "00741098.webp",
+		"descriptions": {
+			"high": {
+				"percent": 17,
+				"description": "power drill"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "corkscrew, bottle screw"
+			},
+			"low": {
+				"percent": 12,
+				"description": "can opener, tin opener"
+			}
+		}
+	},
+	{
+		"name": "00741100.webp",
+		"descriptions": {
+			"high": {
+				"percent": 27,
+				"description": "groom, bridegroom"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "suit, suit of clothes"
+			},
+			"low": {
+				"percent": 9,
+				"description": "bow tie, bow-tie, bowtie"
+			}
+		}
+	},
+	{
+		"name": "00761004.webp",
+		"descriptions": {
+			"high": {
+				"percent": 22,
+				"description": "library"
+			},
+			"medium": {
+				"percent": 18,
+				"description": "desk"
+			},
+			"low": {
+				"percent": 12,
+				"description": "laptop, laptop computer"
+			}
+		}
+	},
+	{
+		"name": "00761006.webp",
+		"descriptions": {
+			"high": {
+				"percent": 26,
+				"description": "notebook, notebook computer"
+			},
+			"medium": {
+				"percent": 19,
+				"description": "desktop computer"
+			},
+			"low": {
+				"percent": 15,
+				"description": "laptop, laptop computer"
+			}
+		}
+	},
+	{
+		"name": "00761008.webp",
+		"descriptions": {
+			"high": {
+				"percent": 6,
+				"description": "volleyball"
+			},
+			"medium": {
+				"percent": 6,
+				"description": "bow"
+			},
+			"low": {
+				"percent": 5,
+				"description": "bassoon"
+			}
+		}
+	},
+	{
+		"name": "00761010.webp",
+		"descriptions": {
+			"high": {
+				"percent": 32,
+				"description": "library"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "laptop, laptop computer"
+			},
+			"low": {
+				"percent": 8,
+				"description": "desk"
+			}
+		}
+	},
+	{
+		"name": "00761011.webp",
+		"descriptions": {
+			"high": {
+				"percent": 20,
+				"description": "reflex camera"
+			},
+			"medium": {
+				"percent": 16,
+				"description": "Polaroid camera, Polaroid Land camera"
+			},
+			"low": {
+				"percent": 16,
+				"description": "projector"
+			}
+		}
+	},
+	{
+		"name": "00761012.webp",
+		"descriptions": {
+			"high": {
+				"percent": 69,
+				"description": "loupe, jeweler's loupe"
+			},
+			"medium": {
+				"percent": 4,
+				"description": "harmonica, mouth organ, harp, mouth harp"
+			},
+			"low": {
+				"percent": 3,
+				"description": "pick, plectrum, plectron"
+			}
+		}
+	},
+	{
+		"name": "00761013.webp",
+		"descriptions": {
+			"high": {
+				"percent": 18,
+				"description": "bassoon"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "violin, fiddle"
+			},
+			"low": {
+				"percent": 8,
+				"description": "brassiere, bra, bandeau"
+			}
+		}
+	},
+	{
+		"name": "00761014.webp",
+		"descriptions": {
+			"high": {
+				"percent": 14,
+				"description": "Welsh springer spaniel"
+			},
+			"medium": {
+				"percent": 5,
+				"description": "lawn mower, mower"
+			},
+			"low": {
+				"percent": 3,
+				"description": "Sussex spaniel"
+			}
+		}
+	},
+	{
+		"name": "00761016.webp",
+		"descriptions": {
+			"high": {
+				"percent": 43,
+				"description": "park bench"
+			},
+			"medium": {
+				"percent": 5,
+				"description": "jean, blue jean, denim"
+			},
+			"low": {
+				"percent": 2,
+				"description": "snowmobile"
+			}
+		}
+	},
+	{
+		"name": "00761017.webp",
+		"descriptions": {
+			"high": {
+				"percent": 26,
+				"description": "amphibian, amphibious vehicle"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "projectile, missile"
+			},
+			"low": {
+				"percent": 9,
+				"description": "tank, army tank, armored combat vehicle, armoured combat vehicle"
+			}
+		}
+	},
+	{
+		"name": "00761018.webp",
+		"descriptions": {
+			"high": {
+				"percent": 83,
+				"description": "harvester, reaper"
+			},
+			"medium": {
+				"percent": 3,
+				"description": "tank, army tank, armored combat vehicle, armoured combat vehicle"
+			},
+			"low": {
+				"percent": 2,
+				"description": "snowplow, snowplough"
+			}
+		}
+	},
+	{
+		"name": "00761019.webp",
+		"descriptions": {
+			"high": {
+				"percent": 26,
+				"description": "thresher, thrasher, threshing machine"
+			},
+			"medium": {
+				"percent": 20,
+				"description": "tractor"
+			},
+			"low": {
+				"percent": 17,
+				"description": "harvester, reaper"
+			}
+		}
+	},
+	{
+		"name": "00761020.webp",
+		"descriptions": {
+			"high": {
+				"percent": 21,
+				"description": "padlock"
+			},
+			"medium": {
+				"percent": 21,
+				"description": "pole"
+			},
+			"low": {
+				"percent": 10,
+				"description": "traffic light, traffic signal, stoplight"
+			}
+		}
+	},
+	{
+		"name": "00761021.webp",
+		"descriptions": {
+			"high": {
+				"percent": 29,
+				"description": "harvester, reaper"
+			},
+			"medium": {
+				"percent": 28,
+				"description": "jeep, landrover"
+			},
+			"low": {
+				"percent": 10,
+				"description": "half track"
+			}
+		}
+	},
+	{
+		"name": "00761022.webp",
+		"descriptions": {
+			"high": {
+				"percent": 35,
+				"description": "lawn mower, mower"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "microphone, mike"
+			},
+			"low": {
+				"percent": 5,
+				"description": "beaker"
+			}
+		}
+	},
+	{
+		"name": "00761023.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "crane"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "forklift"
+			},
+			"low": {
+				"percent": 0,
+				"description": "tow truck, tow car, wrecker"
+			}
+		}
+	},
+	{
+		"name": "00761025.webp",
+		"descriptions": {
+			"high": {
+				"percent": 13,
+				"description": "plane, carpenter's plane, woodworking plane"
+			},
+			"medium": {
+				"percent": 12,
+				"description": "revolver, six-gun, six-shooter"
+			},
+			"low": {
+				"percent": 10,
+				"description": "assault rifle, assault gun"
+			}
+		}
+	},
+	{
+		"name": "00761026.webp",
+		"descriptions": {
+			"high": {
+				"percent": 71,
+				"description": "breastplate, aegis, egis"
+			},
+			"medium": {
+				"percent": 14,
+				"description": "hamper"
+			},
+			"low": {
+				"percent": 3,
+				"description": "Dungeness crab, Cancer magister"
+			}
+		}
+	},
+	{
+		"name": "00761027.webp",
+		"descriptions": {
+			"high": {
+				"percent": 34,
+				"description": "bikini, two-piece"
+			},
+			"medium": {
+				"percent": 23,
+				"description": "maillot, tank suit"
+			},
+			"low": {
+				"percent": 12,
+				"description": "maillot"
+			}
+		}
+	},
+	{
+		"name": "00761028.webp",
+		"descriptions": {
+			"high": {
+				"percent": 76,
+				"description": "suit, suit of clothes"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "Windsor tie"
+			},
+			"low": {
+				"percent": 5,
+				"description": "bow tie, bow-tie, bowtie"
+			}
+		}
+	},
+	{
+		"name": "00761029.webp",
+		"descriptions": {
+			"high": {
+				"percent": 69,
+				"description": "megalith, megalithic structure"
+			},
+			"medium": {
+				"percent": 6,
+				"description": "abaya"
+			},
+			"low": {
+				"percent": 2,
+				"description": "barrow, garden cart, lawn cart, wheelbarrow"
+			}
+		}
+	},
+	{
+		"name": "00761030.webp",
+		"descriptions": {
+			"high": {
+				"percent": 57,
+				"description": "washer, automatic washer, washing machine"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "photocopier"
+			},
+			"low": {
+				"percent": 5,
+				"description": "seat belt, seatbelt"
+			}
+		}
+	},
+	{
+		"name": "00761031.webp",
+		"descriptions": {
+			"high": {
+				"percent": 47,
+				"description": "cliff, drop, drop-off"
+			},
+			"medium": {
+				"percent": 5,
+				"description": "barrow, garden cart, lawn cart, wheelbarrow"
+			},
+			"low": {
+				"percent": 3,
+				"description": "volcano"
+			}
+		}
+	},
+	{
+		"name": "00761032.webp",
+		"descriptions": {
+			"high": {
+				"percent": 63,
+				"description": "suit, suit of clothes"
+			},
+			"medium": {
+				"percent": 5,
+				"description": "trench coat"
+			},
+			"low": {
+				"percent": 4,
+				"description": "bow tie, bow-tie, bowtie"
+			}
+		}
+	},
+	{
+		"name": "00761033.webp",
+		"descriptions": {
+			"high": {
+				"percent": 12,
+				"description": "shoe shop, shoe-shop, shoe store"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM"
+			},
+			"low": {
+				"percent": 6,
+				"description": "vending machine"
+			}
+		}
+	},
+	{
+		"name": "00761034.webp",
+		"descriptions": {
+			"high": {
+				"percent": 23,
+				"description": "crane"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "guillotine"
+			},
+			"low": {
+				"percent": 10,
+				"description": "swing"
+			}
+		}
+	},
+	{
+		"name": "00761035.webp",
+		"descriptions": {
+			"high": {
+				"percent": 75,
+				"description": "bookcase"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "bookshop, bookstore, bookstall"
+			},
+			"low": {
+				"percent": 8,
+				"description": "library"
+			}
+		}
+	},
+	{
+		"name": "00761036.webp",
+		"descriptions": {
+			"high": {
+				"percent": 74,
+				"description": "lumbermill, sawmill"
+			},
+			"medium": {
+				"percent": 21,
+				"description": "megalith, megalithic structure"
+			},
+			"low": {
+				"percent": 0,
+				"description": "sloth bear, Melursus ursinus, Ursus ursinus"
+			}
+		}
+	},
+	{
+		"name": "00761037.webp",
+		"descriptions": {
+			"high": {
+				"percent": 72,
+				"description": "grocery store, grocery, food market, market"
+			},
+			"medium": {
+				"percent": 22,
+				"description": "bakery, bakeshop, bakehouse"
+			},
+			"low": {
+				"percent": 2,
+				"description": "tobacco shop, tobacconist shop, tobacconist"
+			}
+		}
+	},
+	{
+		"name": "00761038.webp",
+		"descriptions": {
+			"high": {
+				"percent": 45,
+				"description": "harvester, reaper"
+			},
+			"medium": {
+				"percent": 15,
+				"description": "crane"
+			},
+			"low": {
+				"percent": 15,
+				"description": "lumbermill, sawmill"
+			}
+		}
+	},
+	{
+		"name": "00761039.webp",
+		"descriptions": {
+			"high": {
+				"percent": 51,
+				"description": "chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour"
+			},
+			"medium": {
+				"percent": 6,
+				"description": "dome"
+			},
+			"low": {
+				"percent": 4,
+				"description": "honeycomb"
+			}
+		}
+	},
+	{
+		"name": "00761044.webp",
+		"descriptions": {
+			"high": {
+				"percent": 30,
+				"description": "steam locomotive"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "fire engine, fire truck"
+			},
+			"low": {
+				"percent": 5,
+				"description": "electric fan, blower"
+			}
+		}
+	},
+	{
+		"name": "00761052.webp",
+		"descriptions": {
+			"high": {
+				"percent": 28,
+				"description": "shoe shop, shoe-shop, shoe store"
+			},
+			"medium": {
+				"percent": 16,
+				"description": "chain"
+			},
+			"low": {
+				"percent": 9,
+				"description": "oboe, hautboy, hautbois"
+			}
+		}
+	},
+	{
+		"name": "00761054.webp",
+		"descriptions": {
+			"high": {
+				"percent": 33,
+				"description": "trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "alp"
+			},
+			"low": {
+				"percent": 11,
+				"description": "jeep, landrover"
+			}
+		}
+	},
+	{
+		"name": "00761056.webp",
+		"descriptions": {
+			"high": {
+				"percent": 38,
+				"description": "scoreboard"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "menu"
+			},
+			"low": {
+				"percent": 4,
+				"description": "matchstick"
+			}
+		}
+	},
+	{
+		"name": "00761057.webp",
+		"descriptions": {
+			"high": {
+				"percent": 64,
+				"description": "thimble"
+			},
+			"medium": {
+				"percent": 21,
+				"description": "hamper"
+			},
+			"low": {
+				"percent": 4,
+				"description": "bucket, pail"
+			}
+		}
+	},
+	{
+		"name": "00761061.webp",
+		"descriptions": {
+			"high": {
+				"percent": 29,
+				"description": "nematode, nematode worm, roundworm"
+			},
+			"medium": {
+				"percent": 18,
+				"description": "velvet"
+			},
+			"low": {
+				"percent": 5,
+				"description": "hammerhead, hammerhead shark"
+			}
+		}
+	},
+	{
+		"name": "00761063.webp",
+		"descriptions": {
+			"high": {
+				"percent": 22,
+				"description": "electric ray, crampfish, numbfish, torpedo"
+			},
+			"medium": {
+				"percent": 21,
+				"description": "starfish, sea star"
+			},
+			"low": {
+				"percent": 9,
+				"description": "hammerhead, hammerhead shark"
+			}
+		}
+	},
+	{
+		"name": "00761082.webp",
+		"descriptions": {
+			"high": {
+				"percent": 66,
+				"description": "bicycle-built-for-two, tandem bicycle, tandem"
+			},
+			"medium": {
+				"percent": 22,
+				"description": "mountain bike, all-terrain bike, off-roader"
+			},
+			"low": {
+				"percent": 2,
+				"description": "parking meter"
+			}
+		}
+	},
+	{
+		"name": "00761086.webp",
+		"descriptions": {
+			"high": {
+				"percent": 15,
+				"description": "spotlight, spot"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "shield, buckler"
+			},
+			"low": {
+				"percent": 6,
+				"description": "candle, taper, wax light"
+			}
+		}
+	},
+	{
+		"name": "00761087.webp",
+		"descriptions": {
+			"high": {
+				"percent": 17,
+				"description": "swab, swob, mop"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "chime, bell, gong"
+			},
+			"low": {
+				"percent": 5,
+				"description": "studio couch, day bed"
+			}
+		}
+	},
+	{
+		"name": "00761088.webp",
+		"descriptions": {
+			"high": {
+				"percent": 81,
+				"description": "ballpoint, ballpoint pen, ballpen, Biro"
+			},
+			"medium": {
+				"percent": 3,
+				"description": "scabbard"
+			},
+			"low": {
+				"percent": 3,
+				"description": "letter opener, paper knife, paperknife"
+			}
+		}
+	},
+	{
+		"name": "00761092.webp",
+		"descriptions": {
+			"high": {
+				"percent": 60,
+				"description": "flute, transverse flute"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "French horn, horn"
+			},
+			"low": {
+				"percent": 4,
+				"description": "microphone, mike"
+			}
+		}
+	},
+	{
+		"name": "00761093.webp",
+		"descriptions": {
+			"high": {
+				"percent": 15,
+				"description": "hook, claw"
+			},
+			"medium": {
+				"percent": 14,
+				"description": "screwdriver"
+			},
+			"low": {
+				"percent": 13,
+				"description": "wine bottle"
+			}
+		}
+	},
+	{
+		"name": "00761094.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "parking meter"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "digital watch"
+			},
+			"low": {
+				"percent": 0,
+				"description": "stopwatch, stop watch"
+			}
+		}
+	},
+	{
+		"name": "00761098.webp",
+		"descriptions": {
+			"high": {
+				"percent": 46,
+				"description": "maillot, tank suit"
+			},
+			"medium": {
+				"percent": 21,
+				"description": "maillot"
+			},
+			"low": {
+				"percent": 20,
+				"description": "bikini, two-piece"
+			}
+		}
+	},
+	{
+		"name": "00881001.webp",
+		"descriptions": {
+			"high": {
+				"percent": 43,
+				"description": "pole"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "ping-pong ball"
+			},
+			"low": {
+				"percent": 11,
+				"description": "tennis ball"
+			}
+		}
+	},
+	{
+		"name": "00881002.webp",
+		"descriptions": {
+			"high": {
+				"percent": 55,
+				"description": "picket fence, paling"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "pinwheel"
+			},
+			"low": {
+				"percent": 3,
+				"description": "rapeseed"
+			}
+		}
+	},
+	{
+		"name": "00881003.webp",
+		"descriptions": {
+			"high": {
+				"percent": 12,
+				"description": "croquet ball"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "bell cote, bell cot"
+			},
+			"low": {
+				"percent": 6,
+				"description": "ice lolly, lolly, lollipop, popsicle"
+			}
+		}
+	},
+	{
+		"name": "00881004.webp",
+		"descriptions": {
+			"high": {
+				"percent": 48,
+				"description": "golden retriever"
+			},
+			"medium": {
+				"percent": 20,
+				"description": "Irish setter, red setter"
+			},
+			"low": {
+				"percent": 13,
+				"description": "bloodhound, sleuthhound"
+			}
+		}
+	},
+	{
+		"name": "00881005.webp",
+		"descriptions": {
+			"high": {
+				"percent": 10,
+				"description": "soccer ball"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "park bench"
+			},
+			"low": {
+				"percent": 7,
+				"description": "croquet ball"
+			}
+		}
+	},
+	{
+		"name": "00881006.webp",
+		"descriptions": {
+			"high": {
+				"percent": 5,
+				"description": "borzoi, Russian wolfhound"
+			},
+			"medium": {
+				"percent": 3,
+				"description": "pajama, pyjama, pj's, jammies"
+			},
+			"low": {
+				"percent": 3,
+				"description": "Irish setter, red setter"
+			}
+		}
+	},
+	{
+		"name": "00881007.webp",
+		"descriptions": {
+			"high": {
+				"percent": 50,
+				"description": "goose"
+			},
+			"medium": {
+				"percent": 33,
+				"description": "pelican"
+			},
+			"low": {
+				"percent": 9,
+				"description": "lakeside, lakeshore"
+			}
+		}
+	},
+	{
+		"name": "00881008.webp",
+		"descriptions": {
+			"high": {
+				"percent": 6,
+				"description": "plunger, plumber's helper"
+			},
+			"medium": {
+				"percent": 5,
+				"description": "accordion, piano accordion, squeeze box"
+			},
+			"low": {
+				"percent": 4,
+				"description": "cocktail shaker"
+			}
+		}
+	},
+	{
+		"name": "00881009.webp",
+		"descriptions": {
+			"high": {
+				"percent": 94,
+				"description": "swing"
+			},
+			"medium": {
+				"percent": 2,
+				"description": "maypole"
+			},
+			"low": {
+				"percent": 0,
+				"description": "parallel bars, bars"
+			}
+		}
+	},
+	{
+		"name": "00881011.webp",
+		"descriptions": {
+			"high": {
+				"percent": 28,
+				"description": "park bench"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "bikini, two-piece"
+			},
+			"low": {
+				"percent": 8,
+				"description": "sarong"
+			}
+		}
+	},
+	{
+		"name": "00881013.webp",
+		"descriptions": {
+			"high": {
+				"percent": 65,
+				"description": "academic gown, academic robe, judge's robe"
+			},
+			"medium": {
+				"percent": 34,
+				"description": "mortarboard"
+			},
+			"low": {
+				"percent": 0,
+				"description": "trench coat"
+			}
+		}
+	},
+	{
+		"name": "00881017.webp",
+		"descriptions": {
+			"high": {
+				"percent": 19,
+				"description": "barrow, garden cart, lawn cart, wheelbarrow"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "bluetick"
+			},
+			"low": {
+				"percent": 6,
+				"description": "bubble"
+			}
+		}
+	},
+	{
+		"name": "00881018.webp",
+		"descriptions": {
+			"high": {
+				"percent": 10,
+				"description": "hair spray"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "ice lolly, lolly, lollipop, popsicle"
+			},
+			"low": {
+				"percent": 3,
+				"description": "garbage truck, dustcart"
+			}
+		}
+	},
+	{
+		"name": "00881019.webp",
+		"descriptions": {
+			"high": {
+				"percent": 28,
+				"description": "pinwheel"
+			},
+			"medium": {
+				"percent": 16,
+				"description": "ice lolly, lolly, lollipop, popsicle"
+			},
+			"low": {
+				"percent": 8,
+				"description": "soccer ball"
+			}
+		}
+	},
+	{
+		"name": "00881022.webp",
+		"descriptions": {
+			"high": {
+				"percent": 65,
+				"description": "cloak"
+			},
+			"medium": {
+				"percent": 23,
+				"description": "abaya"
+			},
+			"low": {
+				"percent": 4,
+				"description": "overskirt"
+			}
+		}
+	},
+	{
+		"name": "00881023.webp",
+		"descriptions": {
+			"high": {
+				"percent": 90,
+				"description": "reel"
+			},
+			"medium": {
+				"percent": 5,
+				"description": "pole"
+			},
+			"low": {
+				"percent": 0,
+				"description": "bow"
+			}
+		}
+	},
+	{
+		"name": "00881029.webp",
+		"descriptions": {
+			"high": {
+				"percent": 82,
+				"description": "crossword puzzle, crossword"
+			},
+			"medium": {
+				"percent": 3,
+				"description": "notebook, notebook computer"
+			},
+			"low": {
+				"percent": 2,
+				"description": "groom, bridegroom"
+			}
+		}
+	},
+	{
+		"name": "00881032.webp",
+		"descriptions": {
+			"high": {
+				"percent": 26,
+				"description": "safe"
+			},
+			"medium": {
+				"percent": 15,
+				"description": "suit, suit of clothes"
+			},
+			"low": {
+				"percent": 9,
+				"description": "projector"
+			}
+		}
+	},
+	{
+		"name": "00881039.webp",
+		"descriptions": {
+			"high": {
+				"percent": 17,
+				"description": "lab coat, laboratory coat"
+			},
+			"medium": {
+				"percent": 6,
+				"description": "forklift"
+			},
+			"low": {
+				"percent": 5,
+				"description": "gasmask, respirator, gas helmet"
+			}
+		}
+	},
+	{
+		"name": "00881041.webp",
+		"descriptions": {
+			"high": {
+				"percent": 30,
+				"description": "window shade"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "vacuum, vacuum cleaner"
+			},
+			"low": {
+				"percent": 9,
+				"description": "microphone, mike"
+			}
+		}
+	},
+	{
+		"name": "00881042.webp",
+		"descriptions": {
+			"high": {
+				"percent": 76,
+				"description": "crane"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "drilling platform, offshore rig"
+			},
+			"low": {
+				"percent": 2,
+				"description": "pirate, pirate ship"
+			}
+		}
+	},
+	{
+		"name": "00881043.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "container ship, containership, container vessel"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "dock, dockage, docking facility"
+			},
+			"low": {
+				"percent": 0,
+				"description": "liner, ocean liner"
+			}
+		}
+	},
+	{
+		"name": "00881044.webp",
+		"descriptions": {
+			"high": {
+				"percent": 22,
+				"description": "matchstick"
+			},
+			"medium": {
+				"percent": 15,
+				"description": "stupa, tope"
+			},
+			"low": {
+				"percent": 6,
+				"description": "wine bottle"
+			}
+		}
+	},
+	{
+		"name": "00881045.webp",
+		"descriptions": {
+			"high": {
+				"percent": 71,
+				"description": "mosque"
+			},
+			"medium": {
+				"percent": 20,
+				"description": "monastery"
+			},
+			"low": {
+				"percent": 1,
+				"description": "patio, terrace"
+			}
+		}
+	},
+	{
+		"name": "00881046.webp",
+		"descriptions": {
+			"high": {
+				"percent": 45,
+				"description": "electric locomotive"
+			},
+			"medium": {
+				"percent": 34,
+				"description": "freight car"
+			},
+			"low": {
+				"percent": 12,
+				"description": "passenger car, coach, carriage"
+			}
+		}
+	},
+	{
+		"name": "00891001.webp",
+		"descriptions": {
+			"high": {
+				"percent": 23,
+				"description": "picket fence, paling"
+			},
+			"medium": {
+				"percent": 6,
+				"description": "groom, bridegroom"
+			},
+			"low": {
+				"percent": 4,
+				"description": "barrow, garden cart, lawn cart, wheelbarrow"
+			}
+		}
+	},
+	{
+		"name": "00891003.webp",
+		"descriptions": {
+			"high": {
+				"percent": 23,
+				"description": "wig"
+			},
+			"medium": {
+				"percent": 3,
+				"description": "bassoon"
+			},
+			"low": {
+				"percent": 3,
+				"description": "bolo tie, bolo, bola tie, bola"
+			}
+		}
+	},
+	{
+		"name": "00891004.webp",
+		"descriptions": {
+			"high": {
+				"percent": 57,
+				"description": "space shuttle"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "cannon"
+			},
+			"low": {
+				"percent": 3,
+				"description": "military uniform"
+			}
+		}
+	},
+	{
+		"name": "00891005.webp",
+		"descriptions": {
+			"high": {
+				"percent": 26,
+				"description": "Irish terrier"
+			},
+			"medium": {
+				"percent": 14,
+				"description": "golden retriever"
+			},
+			"low": {
+				"percent": 7,
+				"description": "soccer ball"
+			}
+		}
+	},
+	{
+		"name": "00891007.webp",
+		"descriptions": {
+			"high": {
+				"percent": 61,
+				"description": "nipple"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "bath towel"
+			},
+			"low": {
+				"percent": 7,
+				"description": "piggy bank, penny bank"
+			}
+		}
+	},
+	{
+		"name": "00891010.webp",
+		"descriptions": {
+			"high": {
+				"percent": 70,
+				"description": "racket, racquet"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "stage"
+			},
+			"low": {
+				"percent": 6,
+				"description": "ping-pong ball"
+			}
+		}
+	},
+	{
+		"name": "00891011.webp",
+		"descriptions": {
+			"high": {
+				"percent": 54,
+				"description": "lakeside, lakeshore"
+			},
+			"medium": {
+				"percent": 19,
+				"description": "dam, dike, dyke"
+			},
+			"low": {
+				"percent": 6,
+				"description": "valley, vale"
+			}
+		}
+	},
+	{
+		"name": "00891012.webp",
+		"descriptions": {
+			"high": {
+				"percent": 18,
+				"description": "swing"
+			},
+			"medium": {
+				"percent": 14,
+				"description": "horizontal bar, high bar"
+			},
+			"low": {
+				"percent": 7,
+				"description": "go-kart"
+			}
+		}
+	},
+	{
+		"name": "00891013.webp",
+		"descriptions": {
+			"high": {
+				"percent": 6,
+				"description": "croquet ball"
+			},
+			"medium": {
+				"percent": 5,
+				"description": "park bench"
+			},
+			"low": {
+				"percent": 5,
+				"description": "sweatshirt"
+			}
+		}
+	},
+	{
+		"name": "00891014.webp",
+		"descriptions": {
+			"high": {
+				"percent": 88,
+				"description": "acoustic guitar"
+			},
+			"medium": {
+				"percent": 2,
+				"description": "banjo"
+			},
+			"low": {
+				"percent": 2,
+				"description": "ballplayer, baseball player"
+			}
+		}
+	},
+	{
+		"name": "00891019.webp",
+		"descriptions": {
+			"high": {
+				"percent": 87,
+				"description": "ski mask"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "mask"
+			},
+			"low": {
+				"percent": 2,
+				"description": "wool, woolen, woollen"
+			}
+		}
+	},
+	{
+		"name": "00891023.webp",
+		"descriptions": {
+			"high": {
+				"percent": 37,
+				"description": "stethoscope"
+			},
+			"medium": {
+				"percent": 16,
+				"description": "military uniform"
+			},
+			"low": {
+				"percent": 5,
+				"description": "drumstick"
+			}
+		}
+	},
+	{
+		"name": "00891024.webp",
+		"descriptions": {
+			"high": {
+				"percent": 7,
+				"description": "pajama, pyjama, pj's, jammies"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "teddy, teddy bear"
+			},
+			"low": {
+				"percent": 6,
+				"description": "Chesapeake Bay retriever"
+			}
+		}
+	},
+	{
+		"name": "00891033.webp",
+		"descriptions": {
+			"high": {
+				"percent": 60,
+				"description": "tub, vat"
+			},
+			"medium": {
+				"percent": 28,
+				"description": "bathtub, bathing tub, bath, tub"
+			},
+			"low": {
+				"percent": 5,
+				"description": "washbasin, handbasin, washbowl, lavabo, wash-hand basin"
+			}
+		}
+	},
+	{
+		"name": "00891037.webp",
+		"descriptions": {
+			"high": {
+				"percent": 22,
+				"description": "neck brace"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "park bench"
+			},
+			"low": {
+				"percent": 7,
+				"description": "sandbar, sand bar"
+			}
+		}
+	},
+	{
+		"name": "00891039.webp",
+		"descriptions": {
+			"high": {
+				"percent": 57,
+				"description": "school bus"
+			},
+			"medium": {
+				"percent": 3,
+				"description": "convertible"
+			},
+			"low": {
+				"percent": 2,
+				"description": "groom, bridegroom"
+			}
+		}
+	},
+	{
+		"name": "00891046.webp",
+		"descriptions": {
+			"high": {
+				"percent": 50,
+				"description": "palace"
+			},
+			"medium": {
+				"percent": 41,
+				"description": "prison, prison house"
+			},
+			"low": {
+				"percent": 2,
+				"description": "scoreboard"
+			}
+		}
+	},
+	{
+		"name": "00891047.webp",
+		"descriptions": {
+			"high": {
+				"percent": 21,
+				"description": "scuba diver"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "space shuttle"
+			},
+			"low": {
+				"percent": 13,
+				"description": "hammerhead, hammerhead shark"
+			}
+		}
+	},
+	{
+		"name": "00891048.webp",
+		"descriptions": {
+			"high": {
+				"percent": 51,
+				"description": "pirate, pirate ship"
+			},
+			"medium": {
+				"percent": 34,
+				"description": "amphibian, amphibious vehicle"
+			},
+			"low": {
+				"percent": 3,
+				"description": "boathouse"
+			}
+		}
+	},
+	{
+		"name": "00891060.webp",
+		"descriptions": {
+			"high": {
+				"percent": 35,
+				"description": "fountain"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "soccer ball"
+			},
+			"low": {
+				"percent": 7,
+				"description": "beacon, lighthouse, beacon light, pharos"
+			}
+		}
+	},
+	{
+		"name": "00891061.webp",
+		"descriptions": {
+			"high": {
+				"percent": 29,
+				"description": "golf ball"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "crutch"
+			},
+			"low": {
+				"percent": 8,
+				"description": "Saluki, gazelle hound"
+			}
+		}
+	},
+	{
+		"name": "00891063.webp",
+		"descriptions": {
+			"high": {
+				"percent": 80,
+				"description": "reel"
+			},
+			"medium": {
+				"percent": 5,
+				"description": "umbrella"
+			},
+			"low": {
+				"percent": 4,
+				"description": "pole"
+			}
+		}
+	},
+	{
+		"name": "00891066.webp",
+		"descriptions": {
+			"high": {
+				"percent": 23,
+				"description": "croquet ball"
+			},
+			"medium": {
+				"percent": 12,
+				"description": "racket, racquet"
+			},
+			"low": {
+				"percent": 7,
+				"description": "umbrella"
+			}
+		}
+	},
+	{
+		"name": "00891068.webp",
+		"descriptions": {
+			"high": {
+				"percent": 97,
+				"description": "unicycle, monocycle"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "seashore, coast, seacoast, sea-coast"
+			},
+			"low": {
+				"percent": 0,
+				"description": "Arabian camel, dromedary, Camelus dromedarius"
+			}
+		}
+	},
+	{
+		"name": "00891069.webp",
+		"descriptions": {
+			"high": {
+				"percent": 10,
+				"description": "umbrella"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "parachute, chute"
+			},
+			"low": {
+				"percent": 5,
+				"description": "racket, racquet"
+			}
+		}
+	},
+	{
+		"name": "00891070.webp",
+		"descriptions": {
+			"high": {
+				"percent": 14,
+				"description": "stage"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "lampshade, lamp shade"
+			},
+			"low": {
+				"percent": 7,
+				"description": "spotlight, spot"
+			}
+		}
+	},
+	{
+		"name": "00891072.webp",
+		"descriptions": {
+			"high": {
+				"percent": 92,
+				"description": "racket, racquet"
+			},
+			"medium": {
+				"percent": 2,
+				"description": "tennis ball"
+			},
+			"low": {
+				"percent": 1,
+				"description": "microphone, mike"
+			}
+		}
+	},
+	{
+		"name": "00891073.webp",
+		"descriptions": {
+			"high": {
+				"percent": 27,
+				"description": "cock"
+			},
+			"medium": {
+				"percent": 25,
+				"description": "water buffalo, water ox, Asiatic buffalo, Bubalus bubalis"
+			},
+			"low": {
+				"percent": 20,
+				"description": "ox"
+			}
+		}
+	},
+	{
+		"name": "00891076.webp",
+		"descriptions": {
+			"high": {
+				"percent": 12,
+				"description": "cinema, movie theater, movie theatre, movie house, picture palace"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "palace"
+			},
+			"low": {
+				"percent": 8,
+				"description": "dock, dockage, docking facility"
+			}
+		}
+	},
+	{
+		"name": "00891077.webp",
+		"descriptions": {
+			"high": {
+				"percent": 39,
+				"description": "basenji"
+			},
+			"medium": {
+				"percent": 23,
+				"description": "Appenzeller"
+			},
+			"low": {
+				"percent": 11,
+				"description": "EntleBucher"
+			}
+		}
+	},
+	{
+		"name": "00891079.webp",
+		"descriptions": {
+			"high": {
+				"percent": 14,
+				"description": "oxcart"
+			},
+			"medium": {
+				"percent": 12,
+				"description": "bearskin, busby, shako"
+			},
+			"low": {
+				"percent": 12,
+				"description": "ox"
+			}
+		}
+	},
+	{
+		"name": "00891083.webp",
+		"descriptions": {
+			"high": {
+				"percent": 5,
+				"description": "alp"
+			},
+			"medium": {
+				"percent": 5,
+				"description": "gar, garfish, garpike, billfish, Lepisosteus osseus"
+			},
+			"low": {
+				"percent": 5,
+				"description": "sunscreen, sunblock, sun blocker"
+			}
+		}
+	},
+	{
+		"name": "00891084.webp",
+		"descriptions": {
+			"high": {
+				"percent": 25,
+				"description": "croquet ball"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "soccer ball"
+			},
+			"low": {
+				"percent": 7,
+				"description": "park bench"
+			}
+		}
+	},
+	{
+		"name": "00891086.webp",
+		"descriptions": {
+			"high": {
+				"percent": 22,
+				"description": "castle"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "dock, dockage, docking facility"
+			},
+			"low": {
+				"percent": 9,
+				"description": "church, church building"
+			}
+		}
+	},
+	{
+		"name": "00891087.webp",
+		"descriptions": {
+			"high": {
+				"percent": 7,
+				"description": "military uniform"
+			},
+			"medium": {
+				"percent": 4,
+				"description": "gondola"
+			},
+			"low": {
+				"percent": 4,
+				"description": "cock"
+			}
+		}
+	},
+	{
+		"name": "00891088.webp",
+		"descriptions": {
+			"high": {
+				"percent": 37,
+				"description": "miniskirt, mini"
+			},
+			"medium": {
+				"percent": 21,
+				"description": "maillot"
+			},
+			"low": {
+				"percent": 5,
+				"description": "sunglass"
+			}
+		}
+	},
+	{
+		"name": "00891093.webp",
+		"descriptions": {
+			"high": {
+				"percent": 43,
+				"description": "bakery, bakeshop, bakehouse"
+			},
+			"medium": {
+				"percent": 23,
+				"description": "turnstile"
+			},
+			"low": {
+				"percent": 5,
+				"description": "barrel, cask"
+			}
+		}
+	},
+	{
+		"name": "00891095.webp",
+		"descriptions": {
+			"high": {
+				"percent": 68,
+				"description": "dome"
+			},
+			"medium": {
+				"percent": 29,
+				"description": "organ, pipe organ"
+			},
+			"low": {
+				"percent": 0,
+				"description": "cinema, movie theater, movie theatre, movie house, picture palace"
+			}
+		}
+	},
+	{
+		"name": "00891100.webp",
+		"descriptions": {
+			"high": {
+				"percent": 8,
+				"description": "fountain"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "rock crab, Cancer irroratus"
+			},
+			"low": {
+				"percent": 6,
+				"description": "canoe"
+			}
+		}
+	},
+	{
+		"name": "00891102.webp",
+		"descriptions": {
+			"high": {
+				"percent": 67,
+				"description": "mask"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "panpipe, pandean pipe, syrinx"
+			},
+			"low": {
+				"percent": 4,
+				"description": "maraca"
+			}
+		}
+	},
+	{
+		"name": "00891106.webp",
+		"descriptions": {
+			"high": {
+				"percent": 11,
+				"description": "maypole"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "bulletproof vest"
+			},
+			"low": {
+				"percent": 5,
+				"description": "military uniform"
+			}
+		}
+	},
+	{
+		"name": "00891108.webp",
+		"descriptions": {
+			"high": {
+				"percent": 93,
+				"description": "schooner"
+			},
+			"medium": {
+				"percent": 1,
+				"description": "trimaran"
+			},
+			"low": {
+				"percent": 1,
+				"description": "yawl"
+			}
+		}
+	},
+	{
+		"name": "00891110.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "swimming trunks, bathing trunks"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "sarong"
+			},
+			"low": {
+				"percent": 0,
+				"description": "soccer ball"
+			}
+		}
+	},
+	{
+		"name": "00891113.webp",
+		"descriptions": {
+			"high": {
+				"percent": 57,
+				"description": "groom, bridegroom"
+			},
+			"medium": {
+				"percent": 29,
+				"description": "suit, suit of clothes"
+			},
+			"low": {
+				"percent": 2,
+				"description": "candle, taper, wax light"
+			}
+		}
+	},
+	{
+		"name": "00891116.webp",
+		"descriptions": {
+			"high": {
+				"percent": 29,
+				"description": "restaurant, eating house, eating place, eatery"
+			},
+			"medium": {
+				"percent": 12,
+				"description": "marimba, xylophone"
+			},
+			"low": {
+				"percent": 7,
+				"description": "folding chair"
+			}
+		}
+	},
+	{
+		"name": "01001003.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "radio telescope, radio reflector"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "solar dish, solar collector, solar furnace"
+			},
+			"low": {
+				"percent": 0,
+				"description": "wing"
+			}
+		}
+	},
+	{
+		"name": "01001012.webp",
+		"descriptions": {
+			"high": {
+				"percent": 77,
+				"description": "airliner"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "wing"
+			},
+			"low": {
+				"percent": 2,
+				"description": "warplane, military plane"
+			}
+		}
+	},
+	{
+		"name": "01001022.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "oscilloscope, scope, cathode-ray oscilloscope, CRO"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "electric guitar"
+			},
+			"low": {
+				"percent": 0,
+				"description": "scoreboard"
+			}
+		}
+	},
+	{
+		"name": "01001029.webp",
+		"descriptions": {
+			"high": {
+				"percent": 27,
+				"description": "bannister, banister, balustrade, balusters, handrail"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "pedestal, plinth, footstall"
+			},
+			"low": {
+				"percent": 8,
+				"description": "pier"
+			}
+		}
+	},
+	{
+		"name": "01001039.webp",
+		"descriptions": {
+			"high": {
+				"percent": 48,
+				"description": "airliner"
+			},
+			"medium": {
+				"percent": 16,
+				"description": "traffic light, traffic signal, stoplight"
+			},
+			"low": {
+				"percent": 5,
+				"description": "wing"
+			}
+		}
+	},
+	{
+		"name": "01001054.webp",
+		"descriptions": {
+			"high": {
+				"percent": 26,
+				"description": "alp"
+			},
+			"medium": {
+				"percent": 22,
+				"description": "trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi"
+			},
+			"low": {
+				"percent": 9,
+				"description": "valley, vale"
+			}
+		}
+	},
+	{
+		"name": "01001067.webp",
+		"descriptions": {
+			"high": {
+				"percent": 68,
+				"description": "tractor"
+			},
+			"medium": {
+				"percent": 21,
+				"description": "harvester, reaper"
+			},
+			"low": {
+				"percent": 5,
+				"description": "lawn mower, mower"
+			}
+		}
+	},
+	{
+		"name": "01001070.webp",
+		"descriptions": {
+			"high": {
+				"percent": 54,
+				"description": "airliner"
+			},
+			"medium": {
+				"percent": 39,
+				"description": "wing"
+			},
+			"low": {
+				"percent": 2,
+				"description": "warplane, military plane"
+			}
+		}
+	},
+	{
+		"name": "01001072.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "radio telescope, radio reflector"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "solar dish, solar collector, solar furnace"
+			},
+			"low": {
+				"percent": 0,
+				"description": "crane"
+			}
+		}
+	},
+	{
+		"name": "01001073.webp",
+		"descriptions": {
+			"high": {
+				"percent": 97,
+				"description": "radio telescope, radio reflector"
+			},
+			"medium": {
+				"percent": 2,
+				"description": "solar dish, solar collector, solar furnace"
+			},
+			"low": {
+				"percent": 0,
+				"description": "steel arch bridge"
+			}
+		}
+	},
+	{
+		"name": "01001088.webp",
+		"descriptions": {
+			"high": {
+				"percent": 34,
+				"description": "barn"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "rapeseed"
+			},
+			"low": {
+				"percent": 9,
+				"description": "worm fence, snake fence, snake-rail fence, Virginia fence"
+			}
+		}
+	},
+	{
+		"name": "01001089.webp",
+		"descriptions": {
+			"high": {
+				"percent": 77,
+				"description": "crane"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "container ship, containership, container vessel"
+			},
+			"low": {
+				"percent": 2,
+				"description": "drilling platform, offshore rig"
+			}
+		}
+	},
+	{
+		"name": "01001090.webp",
+		"descriptions": {
+			"high": {
+				"percent": 16,
+				"description": "worm fence, snake fence, snake-rail fence, Virginia fence"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "library"
+			},
+			"low": {
+				"percent": 5,
+				"description": "picket fence, paling"
+			}
+		}
+	},
+	{
+		"name": "01001092.webp",
+		"descriptions": {
+			"high": {
+				"percent": 10,
+				"description": "can opener, tin opener"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "sunscreen, sunblock, sun blocker"
+			},
+			"low": {
+				"percent": 7,
+				"description": "paintbrush"
+			}
+		}
+	},
+	{
+		"name": "01001093.webp",
+		"descriptions": {
+			"high": {
+				"percent": 51,
+				"description": "cinema, movie theater, movie theatre, movie house, picture palace"
+			},
+			"medium": {
+				"percent": 23,
+				"description": "library"
+			},
+			"low": {
+				"percent": 16,
+				"description": "planetarium"
+			}
+		}
+	},
+	{
+		"name": "01001097.webp",
+		"descriptions": {
+			"high": {
+				"percent": 25,
+				"description": "scoreboard"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "cinema, movie theater, movie theatre, movie house, picture palace"
+			},
+			"low": {
+				"percent": 4,
+				"description": "croquet ball"
+			}
+		}
+	},
+	{
+		"name": "01001098.webp",
+		"descriptions": {
+			"high": {
+				"percent": 81,
+				"description": "bannister, banister, balustrade, balusters, handrail"
+			},
+			"medium": {
+				"percent": 1,
+				"description": "cliff, drop, drop-off"
+			},
+			"low": {
+				"percent": 1,
+				"description": "prison, prison house"
+			}
+		}
+	},
+	{
+		"name": "01001100.webp",
+		"descriptions": {
+			"high": {
+				"percent": 8,
+				"description": "volcano"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "dam, dike, dyke"
+			},
+			"low": {
+				"percent": 6,
+				"description": "jelly fish"
+			}
+		}
+	},
+	{
+		"name": "01031001.webp",
+		"descriptions": {
+			"high": {
+				"percent": 37,
+				"description": "pier"
+			},
+			"medium": {
+				"percent": 27,
+				"description": "viaduct"
+			},
+			"low": {
+				"percent": 9,
+				"description": "dam, dike, dyke"
+			}
+		}
+	},
+	{
+		"name": "01031009.webp",
+		"descriptions": {
+			"high": {
+				"percent": 90,
+				"description": "switch, electric switch, electrical switch"
+			},
+			"medium": {
+				"percent": 2,
+				"description": "cleaver, meat cleaver, chopper"
+			},
+			"low": {
+				"percent": 1,
+				"description": "rubber eraser, rubber, pencil eraser"
+			}
+		}
+	},
+	{
+		"name": "01031013.webp",
+		"descriptions": {
+			"high": {
+				"percent": 68,
+				"description": "hard disc, hard disk, fixed disk"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "wallet, billfold, notecase, pocketbook"
+			},
+			"low": {
+				"percent": 6,
+				"description": "modem"
+			}
+		}
+	},
+	{
+		"name": "01031022.webp",
+		"descriptions": {
+			"high": {
+				"percent": 44,
+				"description": "barn"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "beacon, lighthouse, beacon light, pharos"
+			},
+			"low": {
+				"percent": 13,
+				"description": "castle"
+			}
+		}
+	},
+	{
+		"name": "01031023.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "barrel, cask"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "wine bottle"
+			},
+			"low": {
+				"percent": 0,
+				"description": "goblet"
+			}
+		}
+	},
+	{
+		"name": "01031024.webp",
+		"descriptions": {
+			"high": {
+				"percent": 37,
+				"description": "wing"
+			},
+			"medium": {
+				"percent": 24,
+				"description": "warplane, military plane"
+			},
+			"low": {
+				"percent": 10,
+				"description": "nail"
+			}
+		}
+	},
+	{
+		"name": "01031032.webp",
+		"descriptions": {
+			"high": {
+				"percent": 33,
+				"description": "church, church building"
+			},
+			"medium": {
+				"percent": 21,
+				"description": "castle"
+			},
+			"low": {
+				"percent": 9,
+				"description": "beacon, lighthouse, beacon light, pharos"
+			}
+		}
+	},
+	{
+		"name": "01611002.webp",
+		"descriptions": {
+			"high": {
+				"percent": 17,
+				"description": "ear, spike, capitulum"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "corn"
+			},
+			"low": {
+				"percent": 5,
+				"description": "reel"
+			}
+		}
+	},
+	{
+		"name": "01611003.webp",
+		"descriptions": {
+			"high": {
+				"percent": 34,
+				"description": "groom, bridegroom"
+			},
+			"medium": {
+				"percent": 22,
+				"description": "wig"
+			},
+			"low": {
+				"percent": 5,
+				"description": "steel drum"
+			}
+		}
+	},
+	{
+		"name": "01611006.webp",
+		"descriptions": {
+			"high": {
+				"percent": 54,
+				"description": "pedestal, plinth, footstall"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "fountain"
+			},
+			"low": {
+				"percent": 4,
+				"description": "torch"
+			}
+		}
+	},
+	{
+		"name": "01611007.webp",
+		"descriptions": {
+			"high": {
+				"percent": 97,
+				"description": "racket, racquet"
+			},
+			"medium": {
+				"percent": 2,
+				"description": "tennis ball"
+			},
+			"low": {
+				"percent": 0,
+				"description": "ping-pong ball"
+			}
+		}
+	},
+	{
+		"name": "01611009.webp",
+		"descriptions": {
+			"high": {
+				"percent": 4,
+				"description": "titi, titi monkey"
+			},
+			"medium": {
+				"percent": 4,
+				"description": "park bench"
+			},
+			"low": {
+				"percent": 2,
+				"description": "ice lolly, lolly, lollipop, popsicle"
+			}
+		}
+	},
+	{
+		"name": "01611010.webp",
+		"descriptions": {
+			"high": {
+				"percent": 15,
+				"description": "oboe, hautboy, hautbois"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "French horn, horn"
+			},
+			"low": {
+				"percent": 6,
+				"description": "flute, transverse flute"
+			}
+		}
+	},
+	{
+		"name": "01611011.webp",
+		"descriptions": {
+			"high": {
+				"percent": 18,
+				"description": "seashore, coast, seacoast, sea-coast"
+			},
+			"medium": {
+				"percent": 16,
+				"description": "umbrella"
+			},
+			"low": {
+				"percent": 9,
+				"description": "sandbar, sand bar"
+			}
+		}
+	},
+	{
+		"name": "01611016.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "palace"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "mosque"
+			},
+			"low": {
+				"percent": 0,
+				"description": "church, church building"
+			}
+		}
+	},
+	{
+		"name": "01611020.webp",
+		"descriptions": {
+			"high": {
+				"percent": 82,
+				"description": "palace"
+			},
+			"medium": {
+				"percent": 6,
+				"description": "church, church building"
+			},
+			"low": {
+				"percent": 5,
+				"description": "monastery"
+			}
+		}
+	},
+	{
+		"name": "01611024.webp",
+		"descriptions": {
+			"high": {
+				"percent": 38,
+				"description": "soccer ball"
+			},
+			"medium": {
+				"percent": 6,
+				"description": "Labrador retriever"
+			},
+			"low": {
+				"percent": 2,
+				"description": "golden retriever"
+			}
+		}
+	},
+	{
+		"name": "01611025.webp",
+		"descriptions": {
+			"high": {
+				"percent": 79,
+				"description": "alp"
+			},
+			"medium": {
+				"percent": 4,
+				"description": "valley, vale"
+			},
+			"low": {
+				"percent": 2,
+				"description": "pinwheel"
+			}
+		}
+	},
+	{
+		"name": "01611026.webp",
+		"descriptions": {
+			"high": {
+				"percent": 83,
+				"description": "oxcart"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "ox"
+			},
+			"low": {
+				"percent": 6,
+				"description": "plow, plough"
+			}
+		}
+	},
+	{
+		"name": "01611038.webp",
+		"descriptions": {
+			"high": {
+				"percent": 70,
+				"description": "cowboy hat, ten-gallon hat"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "academic gown, academic robe, judge's robe"
+			},
+			"low": {
+				"percent": 2,
+				"description": "mortarboard"
+			}
+		}
+	},
+	{
+		"name": "01611047.webp",
+		"descriptions": {
+			"high": {
+				"percent": 41,
+				"description": "academic gown, academic robe, judge's robe"
+			},
+			"medium": {
+				"percent": 30,
+				"description": "cloak"
+			},
+			"low": {
+				"percent": 16,
+				"description": "abaya"
+			}
+		}
+	},
+	{
+		"name": "01611049.webp",
+		"descriptions": {
+			"high": {
+				"percent": 63,
+				"description": "quill, quill pen"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "crossword puzzle, crossword"
+			},
+			"low": {
+				"percent": 4,
+				"description": "rubber eraser, rubber, pencil eraser"
+			}
+		}
+	},
+	{
+		"name": "01611052.webp",
+		"descriptions": {
+			"high": {
+				"percent": 74,
+				"description": "space shuttle"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "swing"
+			},
+			"low": {
+				"percent": 3,
+				"description": "cliff, drop, drop-off"
+			}
+		}
+	},
+	{
+		"name": "01611056.webp",
+		"descriptions": {
+			"high": {
+				"percent": 50,
+				"description": "horse cart, horse-cart"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "oxcart"
+			},
+			"low": {
+				"percent": 7,
+				"description": "ox"
+			}
+		}
+	},
+	{
+		"name": "01611059.webp",
+		"descriptions": {
+			"high": {
+				"percent": 22,
+				"description": "volleyball"
+			},
+			"medium": {
+				"percent": 14,
+				"description": "fire screen, fireguard"
+			},
+			"low": {
+				"percent": 12,
+				"description": "chainlink fence"
+			}
+		}
+	},
+	{
+		"name": "01611061.webp",
+		"descriptions": {
+			"high": {
+				"percent": 87,
+				"description": "volleyball"
+			},
+			"medium": {
+				"percent": 2,
+				"description": "racket, racquet"
+			},
+			"low": {
+				"percent": 2,
+				"description": "pier"
+			}
+		}
+	},
+	{
+		"name": "01611064.webp",
+		"descriptions": {
+			"high": {
+				"percent": 33,
+				"description": "dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk"
+			},
+			"medium": {
+				"percent": 24,
+				"description": "solar dish, solar collector, solar furnace"
+			},
+			"low": {
+				"percent": 6,
+				"description": "ski"
+			}
+		}
+	},
+	{
+		"name": "01611069.webp",
+		"descriptions": {
+			"high": {
+				"percent": 26,
+				"description": "bathing cap, swimming cap"
+			},
+			"medium": {
+				"percent": 14,
+				"description": "ox"
+			},
+			"low": {
+				"percent": 13,
+				"description": "oxcart"
+			}
+		}
+	},
+	{
+		"name": "01611074.webp",
+		"descriptions": {
+			"high": {
+				"percent": 22,
+				"description": "racer, race car, racing car"
+			},
+			"medium": {
+				"percent": 16,
+				"description": "maillot"
+			},
+			"low": {
+				"percent": 10,
+				"description": "balance beam, beam"
+			}
+		}
+	},
+	{
+		"name": "01611075.webp",
+		"descriptions": {
+			"high": {
+				"percent": 48,
+				"description": "computer keyboard, keypad"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "confectionery, confectionary, candy store"
+			},
+			"low": {
+				"percent": 6,
+				"description": "toyshop"
+			}
+		}
+	},
+	{
+		"name": "01611078.webp",
+		"descriptions": {
+			"high": {
+				"percent": 35,
+				"description": "balloon"
+			},
+			"medium": {
+				"percent": 20,
+				"description": "lampshade, lamp shade"
+			},
+			"low": {
+				"percent": 2,
+				"description": "soccer ball"
+			}
+		}
+	},
+	{
+		"name": "01611082.webp",
+		"descriptions": {
+			"high": {
+				"percent": 26,
+				"description": "horizontal bar, high bar"
+			},
+			"medium": {
+				"percent": 25,
+				"description": "balance beam, beam"
+			},
+			"low": {
+				"percent": 14,
+				"description": "parallel bars, bars"
+			}
+		}
+	},
+	{
+		"name": "01611083.webp",
+		"descriptions": {
+			"high": {
+				"percent": 52,
+				"description": "palace"
+			},
+			"medium": {
+				"percent": 26,
+				"description": "dome"
+			},
+			"low": {
+				"percent": 8,
+				"description": "stupa, tope"
+			}
+		}
+	},
+	{
+		"name": "01611086.webp",
+		"descriptions": {
+			"high": {
+				"percent": 12,
+				"description": "buckle"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "hatchet"
+			},
+			"low": {
+				"percent": 3,
+				"description": "barrel, cask"
+			}
+		}
+	},
+	{
+		"name": "01611093.webp",
+		"descriptions": {
+			"high": {
+				"percent": 11,
+				"description": "pole"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "rifle"
+			},
+			"low": {
+				"percent": 10,
+				"description": "binoculars, field glasses, opera glasses"
+			}
+		}
+	},
+	{
+		"name": "01611094.webp",
+		"descriptions": {
+			"high": {
+				"percent": 97,
+				"description": "catamaran"
+			},
+			"medium": {
+				"percent": 2,
+				"description": "trimaran"
+			},
+			"low": {
+				"percent": 0,
+				"description": "yawl"
+			}
+		}
+	},
+	{
+		"name": "01611096.webp",
+		"descriptions": {
+			"high": {
+				"percent": 79,
+				"description": "racket, racquet"
+			},
+			"medium": {
+				"percent": 6,
+				"description": "fountain"
+			},
+			"low": {
+				"percent": 3,
+				"description": "swing"
+			}
+		}
+	},
+	{
+		"name": "01611099.webp",
+		"descriptions": {
+			"high": {
+				"percent": 22,
+				"description": "plow, plough"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "jeep, landrover"
+			},
+			"low": {
+				"percent": 8,
+				"description": "projectile, missile"
+			}
+		}
+	},
+	{
+		"name": "01681003.webp",
+		"descriptions": {
+			"high": {
+				"percent": 12,
+				"description": "notebook, notebook computer"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "groom, bridegroom"
+			},
+			"low": {
+				"percent": 9,
+				"description": "laptop, laptop computer"
+			}
+		}
+	},
+	{
+		"name": "01681006.webp",
+		"descriptions": {
+			"high": {
+				"percent": 20,
+				"description": "conch"
+			},
+			"medium": {
+				"percent": 15,
+				"description": "Band Aid"
+			},
+			"low": {
+				"percent": 8,
+				"description": "bubble"
+			}
+		}
+	},
+	{
+		"name": "01681008.webp",
+		"descriptions": {
+			"high": {
+				"percent": 33,
+				"description": "French bulldog"
+			},
+			"medium": {
+				"percent": 19,
+				"description": "Scotch terrier, Scottish terrier, Scottie"
+			},
+			"low": {
+				"percent": 6,
+				"description": "Staffordshire bullterrier, Staffordshire bull terrier"
+			}
+		}
+	},
+	{
+		"name": "01681009.webp",
+		"descriptions": {
+			"high": {
+				"percent": 51,
+				"description": "pinwheel"
+			},
+			"medium": {
+				"percent": 12,
+				"description": "torch"
+			},
+			"low": {
+				"percent": 12,
+				"description": "plunger, plumber's helper"
+			}
+		}
+	},
+	{
+		"name": "01681010.webp",
+		"descriptions": {
+			"high": {
+				"percent": 23,
+				"description": "pier"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "fireboat"
+			},
+			"low": {
+				"percent": 9,
+				"description": "carousel, carrousel, merry-go-round, roundabout, whirligig"
+			}
+		}
+	},
+	{
+		"name": "01681011.webp",
+		"descriptions": {
+			"high": {
+				"percent": 22,
+				"description": "minivan"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "car wheel"
+			},
+			"low": {
+				"percent": 12,
+				"description": "cab, hack, taxi, taxicab"
+			}
+		}
+	},
+	{
+		"name": "01681012.webp",
+		"descriptions": {
+			"high": {
+				"percent": 74,
+				"description": "ox"
+			},
+			"medium": {
+				"percent": 18,
+				"description": "hog, pig, grunter, squealer, Sus scrofa"
+			},
+			"low": {
+				"percent": 2,
+				"description": "sorrel"
+			}
+		}
+	},
+	{
+		"name": "01681015.webp",
+		"descriptions": {
+			"high": {
+				"percent": 97,
+				"description": "limousine, limo"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon"
+			},
+			"low": {
+				"percent": 0,
+				"description": "cab, hack, taxi, taxicab"
+			}
+		}
+	},
+	{
+		"name": "01681020.webp",
+		"descriptions": {
+			"high": {
+				"percent": 13,
+				"description": "chime, bell, gong"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "window shade"
+			},
+			"low": {
+				"percent": 8,
+				"description": "prison, prison house"
+			}
+		}
+	},
+	{
+		"name": "01681022.webp",
+		"descriptions": {
+			"high": {
+				"percent": 28,
+				"description": "trench coat"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "umbrella"
+			},
+			"low": {
+				"percent": 11,
+				"description": "turnstile"
+			}
+		}
+	},
+	{
+		"name": "01681032.webp",
+		"descriptions": {
+			"high": {
+				"percent": 16,
+				"description": "cannon"
+			},
+			"medium": {
+				"percent": 15,
+				"description": "monitor"
+			},
+			"low": {
+				"percent": 11,
+				"description": "microphone, mike"
+			}
+		}
+	},
+	{
+		"name": "01681033.webp",
+		"descriptions": {
+			"high": {
+				"percent": 32,
+				"description": "paddle, boat paddle"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "assault rifle, assault gun"
+			},
+			"low": {
+				"percent": 7,
+				"description": "reel"
+			}
+		}
+	},
+	{
+		"name": "01681035.webp",
+		"descriptions": {
+			"high": {
+				"percent": 27,
+				"description": "ice lolly, lolly, lollipop, popsicle"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "jersey, T-shirt, tee shirt"
+			},
+			"low": {
+				"percent": 5,
+				"description": "American lobster, Northern lobster, Maine lobster, Homarus americanus"
+			}
+		}
+	},
+	{
+		"name": "01681038.webp",
+		"descriptions": {
+			"high": {
+				"percent": 35,
+				"description": "amphibian, amphibious vehicle"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "crane"
+			},
+			"low": {
+				"percent": 9,
+				"description": "pirate, pirate ship"
+			}
+		}
+	},
+	{
+		"name": "01681040.webp",
+		"descriptions": {
+			"high": {
+				"percent": 57,
+				"description": "swing"
+			},
+			"medium": {
+				"percent": 4,
+				"description": "pajama, pyjama, pj's, jammies"
+			},
+			"low": {
+				"percent": 3,
+				"description": "kimono"
+			}
+		}
+	},
+	{
+		"name": "01681044.webp",
+		"descriptions": {
+			"high": {
+				"percent": 13,
+				"description": "acoustic guitar"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "stage"
+			},
+			"low": {
+				"percent": 10,
+				"description": "window shade"
+			}
+		}
+	},
+	{
+		"name": "01681048.webp",
+		"descriptions": {
+			"high": {
+				"percent": 81,
+				"description": "racket, racquet"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "tennis ball"
+			},
+			"low": {
+				"percent": 0,
+				"description": "ping-pong ball"
+			}
+		}
+	},
+	{
+		"name": "01681057.webp",
+		"descriptions": {
+			"high": {
+				"percent": 38,
+				"description": "snorkel"
+			},
+			"medium": {
+				"percent": 6,
+				"description": "bathing cap, swimming cap"
+			},
+			"low": {
+				"percent": 3,
+				"description": "great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias"
+			}
+		}
+	},
+	{
+		"name": "01681062.webp",
+		"descriptions": {
+			"high": {
+				"percent": 41,
+				"description": "obelisk"
+			},
+			"medium": {
+				"percent": 16,
+				"description": "suspension bridge"
+			},
+			"low": {
+				"percent": 14,
+				"description": "castle"
+			}
+		}
+	},
+	{
+		"name": "01681068.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "volleyball"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "torch"
+			},
+			"low": {
+				"percent": 0,
+				"description": "swimming trunks, bathing trunks"
+			}
+		}
+	},
+	{
+		"name": "01681070.webp",
+		"descriptions": {
+			"high": {
+				"percent": 19,
+				"description": "golf ball"
+			},
+			"medium": {
+				"percent": 18,
+				"description": "croquet ball"
+			},
+			"low": {
+				"percent": 5,
+				"description": "ballplayer, baseball player"
+			}
+		}
+	},
+	{
+		"name": "01681071.webp",
+		"descriptions": {
+			"high": {
+				"percent": 61,
+				"description": "ballplayer, baseball player"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "baseball"
+			},
+			"low": {
+				"percent": 6,
+				"description": "golf ball"
+			}
+		}
+	},
+	{
+		"name": "01681073.webp",
+		"descriptions": {
+			"high": {
+				"percent": 72,
+				"description": "parachute, chute"
+			},
+			"medium": {
+				"percent": 14,
+				"description": "umbrella"
+			},
+			"low": {
+				"percent": 3,
+				"description": "flagpole, flagstaff"
+			}
+		}
+	},
+	{
+		"name": "01681075.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "space shuttle"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "missile"
+			},
+			"low": {
+				"percent": 0,
+				"description": "projectile, missile"
+			}
+		}
+	},
+	{
+		"name": "01681080.webp",
+		"descriptions": {
+			"high": {
+				"percent": 39,
+				"description": "palace"
+			},
+			"medium": {
+				"percent": 27,
+				"description": "church, church building"
+			},
+			"low": {
+				"percent": 11,
+				"description": "monastery"
+			}
+		}
+	},
+	{
+		"name": "01681082.webp",
+		"descriptions": {
+			"high": {
+				"percent": 39,
+				"description": "ice lolly, lolly, lollipop, popsicle"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "bathing cap, swimming cap"
+			},
+			"low": {
+				"percent": 4,
+				"description": "pinwheel"
+			}
+		}
+	},
+	{
+		"name": "01681087.webp",
+		"descriptions": {
+			"high": {
+				"percent": 29,
+				"description": "bannister, banister, balustrade, balusters, handrail"
+			},
+			"medium": {
+				"percent": 15,
+				"description": "crate"
+			},
+			"low": {
+				"percent": 8,
+				"description": "crane"
+			}
+		}
+	},
+	{
+		"name": "01681091.webp",
+		"descriptions": {
+			"high": {
+				"percent": 86,
+				"description": "speedboat"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "trimaran"
+			},
+			"low": {
+				"percent": 1,
+				"description": "amphibian, amphibious vehicle"
+			}
+		}
+	},
+	{
+		"name": "01681096.webp",
+		"descriptions": {
+			"high": {
+				"percent": 41,
+				"description": "crossword puzzle, crossword"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "web site, website, internet site, site"
+			},
+			"low": {
+				"percent": 4,
+				"description": "wine bottle"
+			}
+		}
+	},
+	{
+		"name": "01681097.webp",
+		"descriptions": {
+			"high": {
+				"percent": 67,
+				"description": "space shuttle"
+			},
+			"medium": {
+				"percent": 4,
+				"description": "flagpole, flagstaff"
+			},
+			"low": {
+				"percent": 3,
+				"description": "ski"
+			}
+		}
+	},
+	{
+		"name": "01681098.webp",
+		"descriptions": {
+			"high": {
+				"percent": 19,
+				"description": "ice lolly, lolly, lollipop, popsicle"
+			},
+			"medium": {
+				"percent": 12,
+				"description": "ocarina, sweet potato"
+			},
+			"low": {
+				"percent": 9,
+				"description": "Band Aid"
+			}
+		}
+	},
+	{
+		"name": "01681100.webp",
+		"descriptions": {
+			"high": {
+				"percent": 61,
+				"description": "academic gown, academic robe, judge's robe"
+			},
+			"medium": {
+				"percent": 38,
+				"description": "mortarboard"
+			},
+			"low": {
+				"percent": 0,
+				"description": "cloak"
+			}
+		}
+	},
+	{
+		"name": "01871002.webp",
+		"descriptions": {
+			"high": {
+				"percent": 33,
+				"description": "bow tie, bow-tie, bowtie"
+			},
+			"medium": {
+				"percent": 32,
+				"description": "dumbbell"
+			},
+			"low": {
+				"percent": 4,
+				"description": "punching bag, punch bag, punching ball, punchball"
+			}
+		}
+	},
+	{
+		"name": "01871010.webp",
+		"descriptions": {
+			"high": {
+				"percent": 96,
+				"description": "computer keyboard, keypad"
+			},
+			"medium": {
+				"percent": 1,
+				"description": "typewriter keyboard"
+			},
+			"low": {
+				"percent": 0,
+				"description": "space bar"
+			}
+		}
+	},
+	{
+		"name": "01871012.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "radio telescope, radio reflector"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "sundial"
+			},
+			"low": {
+				"percent": 0,
+				"description": "solar dish, solar collector, solar furnace"
+			}
+		}
+	},
+	{
+		"name": "01871014.webp",
+		"descriptions": {
+			"high": {
+				"percent": 90,
+				"description": "oscilloscope, scope, cathode-ray oscilloscope, CRO"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "digital clock"
+			},
+			"low": {
+				"percent": 0,
+				"description": "traffic light, traffic signal, stoplight"
+			}
+		}
+	},
+	{
+		"name": "01871030.webp",
+		"descriptions": {
+			"high": {
+				"percent": 45,
+				"description": "rubber eraser, rubber, pencil eraser"
+			},
+			"medium": {
+				"percent": 33,
+				"description": "rule, ruler"
+			},
+			"low": {
+				"percent": 13,
+				"description": "ballpoint, ballpoint pen, ballpen, Biro"
+			}
+		}
+	},
+	{
+		"name": "01871035.webp",
+		"descriptions": {
+			"high": {
+				"percent": 67,
+				"description": "crane"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "wreck"
+			},
+			"low": {
+				"percent": 6,
+				"description": "plow, plough"
+			}
+		}
+	},
+	{
+		"name": "01871039.webp",
+		"descriptions": {
+			"high": {
+				"percent": 45,
+				"description": "maze, labyrinth"
+			},
+			"medium": {
+				"percent": 6,
+				"description": "valley, vale"
+			},
+			"low": {
+				"percent": 5,
+				"description": "bannister, banister, balustrade, balusters, handrail"
+			}
+		}
+	},
+	{
+		"name": "01871040.webp",
+		"descriptions": {
+			"high": {
+				"percent": 37,
+				"description": "airliner"
+			},
+			"medium": {
+				"percent": 24,
+				"description": "wing"
+			},
+			"low": {
+				"percent": 16,
+				"description": "warplane, military plane"
+			}
+		}
+	},
+	{
+		"name": "01871048.webp",
+		"descriptions": {
+			"high": {
+				"percent": 95,
+				"description": "drilling platform, offshore rig"
+			},
+			"medium": {
+				"percent": 3,
+				"description": "crane"
+			},
+			"low": {
+				"percent": 0,
+				"description": "airship, dirigible"
+			}
+		}
+	},
+	{
+		"name": "01871068.webp",
+		"descriptions": {
+			"high": {
+				"percent": 28,
+				"description": "cleaver, meat cleaver, chopper"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "pole"
+			},
+			"low": {
+				"percent": 17,
+				"description": "bow tie, bow-tie, bowtie"
+			}
+		}
+	},
+	{
+		"name": "01871070.webp",
+		"descriptions": {
+			"high": {
+				"percent": 94,
+				"description": "switch, electric switch, electrical switch"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "pencil sharpener"
+			},
+			"low": {
+				"percent": 0,
+				"description": "buckle"
+			}
+		}
+	},
+	{
+		"name": "01871074.webp",
+		"descriptions": {
+			"high": {
+				"percent": 88,
+				"description": "beacon, lighthouse, beacon light, pharos"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "water tower"
+			},
+			"low": {
+				"percent": 0,
+				"description": "dome"
+			}
+		}
+	},
+	{
+		"name": "02461001.webp",
+		"descriptions": {
+			"high": {
+				"percent": 50,
+				"description": "groom, bridegroom"
+			},
+			"medium": {
+				"percent": 14,
+				"description": "quill, quill pen"
+			},
+			"low": {
+				"percent": 7,
+				"description": "notebook, notebook computer"
+			}
+		}
+	},
+	{
+		"name": "02461002.webp",
+		"descriptions": {
+			"high": {
+				"percent": 36,
+				"description": "bearskin, busby, shako"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "academic gown, academic robe, judge's robe"
+			},
+			"low": {
+				"percent": 8,
+				"description": "bow"
+			}
+		}
+	},
+	{
+		"name": "02461003.webp",
+		"descriptions": {
+			"high": {
+				"percent": 44,
+				"description": "oboe, hautboy, hautbois"
+			},
+			"medium": {
+				"percent": 12,
+				"description": "projectile, missile"
+			},
+			"low": {
+				"percent": 6,
+				"description": "trombone"
+			}
+		}
+	},
+	{
+		"name": "02461004.webp",
+		"descriptions": {
+			"high": {
+				"percent": 15,
+				"description": "suit, suit of clothes"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "desk"
+			},
+			"low": {
+				"percent": 9,
+				"description": "bow tie, bow-tie, bowtie"
+			}
+		}
+	},
+	{
+		"name": "02461005.webp",
+		"descriptions": {
+			"high": {
+				"percent": 37,
+				"description": "spoonbill"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "white stork, Ciconia ciconia"
+			},
+			"low": {
+				"percent": 5,
+				"description": "American egret, great white heron, Egretta albus"
+			}
+		}
+	},
+	{
+		"name": "02461006.webp",
+		"descriptions": {
+			"high": {
+				"percent": 27,
+				"description": "stretcher"
+			},
+			"medium": {
+				"percent": 19,
+				"description": "lab coat, laboratory coat"
+			},
+			"low": {
+				"percent": 7,
+				"description": "dough"
+			}
+		}
+	},
+	{
+		"name": "02461007.webp",
+		"descriptions": {
+			"high": {
+				"percent": 65,
+				"description": "gown"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "maillot"
+			},
+			"low": {
+				"percent": 3,
+				"description": "maillot, tank suit"
+			}
+		}
+	},
+	{
+		"name": "02461008.webp",
+		"descriptions": {
+			"high": {
+				"percent": 12,
+				"description": "military uniform"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "bulletproof vest"
+			},
+			"low": {
+				"percent": 6,
+				"description": "cornet, horn, trumpet, trump"
+			}
+		}
+	},
+	{
+		"name": "02461009.webp",
+		"descriptions": {
+			"high": {
+				"percent": 69,
+				"description": "bikini, two-piece"
+			},
+			"medium": {
+				"percent": 18,
+				"description": "sarong"
+			},
+			"low": {
+				"percent": 6,
+				"description": "maillot"
+			}
+		}
+	},
+	{
+		"name": "02461010.webp",
+		"descriptions": {
+			"high": {
+				"percent": 27,
+				"description": "stage"
+			},
+			"medium": {
+				"percent": 11,
+				"description": "scale, weighing machine"
+			},
+			"low": {
+				"percent": 4,
+				"description": "barber chair"
+			}
+		}
+	},
+	{
+		"name": "02461011.webp",
+		"descriptions": {
+			"high": {
+				"percent": 76,
+				"description": "bikini, two-piece"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "maillot"
+			},
+			"low": {
+				"percent": 3,
+				"description": "maillot, tank suit"
+			}
+		}
+	},
+	{
+		"name": "02461012.webp",
+		"descriptions": {
+			"high": {
+				"percent": 75,
+				"description": "barbell"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "parallel bars, bars"
+			},
+			"low": {
+				"percent": 6,
+				"description": "horizontal bar, high bar"
+			}
+		}
+	},
+	{
+		"name": "02461013.webp",
+		"descriptions": {
+			"high": {
+				"percent": 28,
+				"description": "bathtub, bathing tub, bath, tub"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "mantis, mantid"
+			},
+			"low": {
+				"percent": 5,
+				"description": "maillot"
+			}
+		}
+	},
+	{
+		"name": "02461014.webp",
+		"descriptions": {
+			"high": {
+				"percent": 18,
+				"description": "restaurant, eating house, eating place, eatery"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "library"
+			},
+			"low": {
+				"percent": 16,
+				"description": "lab coat, laboratory coat"
+			}
+		}
+	},
+	{
+		"name": "02461015.webp",
+		"descriptions": {
+			"high": {
+				"percent": 19,
+				"description": "disk brake, disc brake"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "trombone"
+			},
+			"low": {
+				"percent": 8,
+				"description": "thresher, thrasher, threshing machine"
+			}
+		}
+	},
+	{
+		"name": "02461016.webp",
+		"descriptions": {
+			"high": {
+				"percent": 81,
+				"description": "maillot, tank suit"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "maillot"
+			},
+			"low": {
+				"percent": 7,
+				"description": "bikini, two-piece"
+			}
+		}
+	},
+	{
+		"name": "02461017.webp",
+		"descriptions": {
+			"high": {
+				"percent": 45,
+				"description": "candle, taper, wax light"
+			},
+			"medium": {
+				"percent": 44,
+				"description": "ocarina, sweet potato"
+			},
+			"low": {
+				"percent": 1,
+				"description": "cellular telephone, cellular phone, cellphone, cell, mobile phone"
+			}
+		}
+	},
+	{
+		"name": "02461019.webp",
+		"descriptions": {
+			"high": {
+				"percent": 59,
+				"description": "oboe, hautboy, hautbois"
+			},
+			"medium": {
+				"percent": 4,
+				"description": "violin, fiddle"
+			},
+			"low": {
+				"percent": 3,
+				"description": "bassoon"
+			}
+		}
+	},
+	{
+		"name": "02461020.webp",
+		"descriptions": {
+			"high": {
+				"percent": 27,
+				"description": "unicycle, monocycle"
+			},
+			"medium": {
+				"percent": 25,
+				"description": "bow"
+			},
+			"low": {
+				"percent": 12,
+				"description": "horizontal bar, high bar"
+			}
+		}
+	},
+	{
+		"name": "02461021.webp",
+		"descriptions": {
+			"high": {
+				"percent": 48,
+				"description": "tripod"
+			},
+			"medium": {
+				"percent": 39,
+				"description": "shovel"
+			},
+			"low": {
+				"percent": 5,
+				"description": "paddle, boat paddle"
+			}
+		}
+	},
+	{
+		"name": "02461022.webp",
+		"descriptions": {
+			"high": {
+				"percent": 30,
+				"description": "space heater"
+			},
+			"medium": {
+				"percent": 12,
+				"description": "laptop, laptop computer"
+			},
+			"low": {
+				"percent": 9,
+				"description": "candle, taper, wax light"
+			}
+		}
+	},
+	{
+		"name": "02461023.webp",
+		"descriptions": {
+			"high": {
+				"percent": 62,
+				"description": "oxygen mask"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "gasmask, respirator, gas helmet"
+			},
+			"low": {
+				"percent": 8,
+				"description": "gas pump, gasoline pump, petrol pump, island dispenser"
+			}
+		}
+	},
+	{
+		"name": "02461025.webp",
+		"descriptions": {
+			"high": {
+				"percent": 7,
+				"description": "Christmas stocking"
+			},
+			"medium": {
+				"percent": 6,
+				"description": "shoji"
+			},
+			"low": {
+				"percent": 6,
+				"description": "carton"
+			}
+		}
+	},
+	{
+		"name": "02461026.webp",
+		"descriptions": {
+			"high": {
+				"percent": 11,
+				"description": "pencil sharpener"
+			},
+			"medium": {
+				"percent": 5,
+				"description": "sombrero"
+			},
+			"low": {
+				"percent": 5,
+				"description": "drumstick"
+			}
+		}
+	},
+	{
+		"name": "02461027.webp",
+		"descriptions": {
+			"high": {
+				"percent": 94,
+				"description": "shoji"
+			},
+			"medium": {
+				"percent": 3,
+				"description": "sliding door"
+			},
+			"low": {
+				"percent": 0,
+				"description": "window screen"
+			}
+		}
+	},
+	{
+		"name": "03411007.webp",
+		"descriptions": {
+			"high": {
+				"percent": 45,
+				"description": "bannister, banister, balustrade, balusters, handrail"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "cliff, drop, drop-off"
+			},
+			"low": {
+				"percent": 7,
+				"description": "hook, claw"
+			}
+		}
+	},
+	{
+		"name": "03411027.webp",
+		"descriptions": {
+			"high": {
+				"percent": 66,
+				"description": "drilling platform, offshore rig"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "analog clock"
+			},
+			"low": {
+				"percent": 6,
+				"description": "crane"
+			}
+		}
+	},
+	{
+		"name": "03411048.webp",
+		"descriptions": {
+			"high": {
+				"percent": 40,
+				"description": "oscilloscope, scope, cathode-ray oscilloscope, CRO"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "radio, wireless"
+			},
+			"low": {
+				"percent": 8,
+				"description": "loudspeaker, speaker, speaker unit, loudspeaker system, speaker system"
+			}
+		}
+	},
+	{
+		"name": "03411050.webp",
+		"descriptions": {
+			"high": {
+				"percent": 34,
+				"description": "siamang, Hylobates syndactylus, Symphalangus syndactylus"
+			},
+			"medium": {
+				"percent": 20,
+				"description": "window shade"
+			},
+			"low": {
+				"percent": 15,
+				"description": "fountain"
+			}
+		}
+	},
+	{
+		"name": "03411057.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "liner, ocean liner"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "aircraft carrier, carrier, flattop, attack aircraft carrier"
+			},
+			"low": {
+				"percent": 0,
+				"description": "catamaran"
+			}
+		}
+	},
+	{
+		"name": "03411059.webp",
+		"descriptions": {
+			"high": {
+				"percent": 18,
+				"description": "palace"
+			},
+			"medium": {
+				"percent": 8,
+				"description": "dial telephone, dial phone"
+			},
+			"low": {
+				"percent": 7,
+				"description": "school bus"
+			}
+		}
+	},
+	{
+		"name": "03411060.webp",
+		"descriptions": {
+			"high": {
+				"percent": 29,
+				"description": "accordion, piano accordion, squeeze box"
+			},
+			"medium": {
+				"percent": 24,
+				"description": "fire engine, fire truck"
+			},
+			"low": {
+				"percent": 12,
+				"description": "stage"
+			}
+		}
+	},
+	{
+		"name": "03411062.webp",
+		"descriptions": {
+			"high": {
+				"percent": 97,
+				"description": "liner, ocean liner"
+			},
+			"medium": {
+				"percent": 1,
+				"description": "aircraft carrier, carrier, flattop, attack aircraft carrier"
+			},
+			"low": {
+				"percent": 0,
+				"description": "container ship, containership, container vessel"
+			}
+		}
+	},
+	{
+		"name": "03411066.webp",
+		"descriptions": {
+			"high": {
+				"percent": 50,
+				"description": "wing"
+			},
+			"medium": {
+				"percent": 14,
+				"description": "balloon"
+			},
+			"low": {
+				"percent": 12,
+				"description": "airliner"
+			}
+		}
+	},
+	{
+		"name": "03411068.webp",
+		"descriptions": {
+			"high": {
+				"percent": 70,
+				"description": "wing"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "airliner"
+			},
+			"low": {
+				"percent": 8,
+				"description": "warplane, military plane"
+			}
+		}
+	},
+	{
+		"name": "03411069.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "liner, ocean liner"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "aircraft carrier, carrier, flattop, attack aircraft carrier"
+			},
+			"low": {
+				"percent": 0,
+				"description": "fireboat"
+			}
+		}
+	},
+	{
+		"name": "03411071.webp",
+		"descriptions": {
+			"high": {
+				"percent": 51,
+				"description": "wing"
+			},
+			"medium": {
+				"percent": 12,
+				"description": "tripod"
+			},
+			"low": {
+				"percent": 4,
+				"description": "jeep, landrover"
+			}
+		}
+	},
+	{
+		"name": "03411073.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "drilling platform, offshore rig"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "pirate, pirate ship"
+			},
+			"low": {
+				"percent": 0,
+				"description": "crane"
+			}
+		}
+	},
+	{
+		"name": "03411082.webp",
+		"descriptions": {
+			"high": {
+				"percent": 46,
+				"description": "warplane, military plane"
+			},
+			"medium": {
+				"percent": 34,
+				"description": "airliner"
+			},
+			"low": {
+				"percent": 13,
+				"description": "wing"
+			}
+		}
+	},
+	{
+		"name": "03411092.webp",
+		"descriptions": {
+			"high": {
+				"percent": 59,
+				"description": "beacon, lighthouse, beacon light, pharos"
+			},
+			"medium": {
+				"percent": 15,
+				"description": "water tower"
+			},
+			"low": {
+				"percent": 5,
+				"description": "stupa, tope"
+			}
+		}
+	},
+	{
+		"name": "03411093.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "barrel, cask"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "traffic light, traffic signal, stoplight"
+			},
+			"low": {
+				"percent": 0,
+				"description": "pill bottle"
+			}
+		}
+	},
+	{
+		"name": "03411094.webp",
+		"descriptions": {
+			"high": {
+				"percent": 30,
+				"description": "theater curtain, theatre curtain"
+			},
+			"medium": {
+				"percent": 27,
+				"description": "gown"
+			},
+			"low": {
+				"percent": 4,
+				"description": "cinema, movie theater, movie theatre, movie house, picture palace"
+			}
+		}
+	},
+	{
+		"name": "03411096.webp",
+		"descriptions": {
+			"high": {
+				"percent": 19,
+				"description": "cinema, movie theater, movie theatre, movie house, picture palace"
+			},
+			"medium": {
+				"percent": 13,
+				"description": "seashore, coast, seacoast, sea-coast"
+			},
+			"low": {
+				"percent": 9,
+				"description": "trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi"
+			}
+		}
+	},
+	{
+		"name": "03421001.webp",
+		"descriptions": {
+			"high": {
+				"percent": 14,
+				"description": "lakeside, lakeshore"
+			},
+			"medium": {
+				"percent": 7,
+				"description": "traffic light, traffic signal, stoplight"
+			},
+			"low": {
+				"percent": 7,
+				"description": "seashore, coast, seacoast, sea-coast"
+			}
+		}
+	},
+	{
+		"name": "03421002.webp",
+		"descriptions": {
+			"high": {
+				"percent": 32,
+				"description": "planetarium"
+			},
+			"medium": {
+				"percent": 26,
+				"description": "library"
+			},
+			"low": {
+				"percent": 11,
+				"description": "palace"
+			}
+		}
+	},
+	{
+		"name": "03421006.webp",
+		"descriptions": {
+			"high": {
+				"percent": 28,
+				"description": "fountain"
+			},
+			"medium": {
+				"percent": 17,
+				"description": "lakeside, lakeshore"
+			},
+			"low": {
+				"percent": 6,
+				"description": "peacock"
+			}
+		}
+	},
+	{
+		"name": "03421007.webp",
+		"descriptions": {
+			"high": {
+				"percent": 18,
+				"description": "seashore, coast, seacoast, sea-coast"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "park bench"
+			},
+			"low": {
+				"percent": 7,
+				"description": "balloon"
+			}
+		}
+	},
+	{
+		"name": "03421008.webp",
+		"descriptions": {
+			"high": {
+				"percent": 90,
+				"description": "remote control, remote"
+			},
+			"medium": {
+				"percent": 4,
+				"description": "dial telephone, dial phone"
+			},
+			"low": {
+				"percent": 3,
+				"description": "space bar"
+			}
+		}
+	},
+	{
+		"name": "03421011.webp",
+		"descriptions": {
+			"high": {
+				"percent": 45,
+				"description": "drilling platform, offshore rig"
+			},
+			"medium": {
+				"percent": 16,
+				"description": "stupa, tope"
+			},
+			"low": {
+				"percent": 15,
+				"description": "mosque"
+			}
+		}
+	},
+	{
+		"name": "03421012.webp",
+		"descriptions": {
+			"high": {
+				"percent": 95,
+				"description": "drilling platform, offshore rig"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "crane"
+			},
+			"low": {
+				"percent": 0,
+				"description": "pirate, pirate ship"
+			}
+		}
+	},
+	{
+		"name": "03421014.webp",
+		"descriptions": {
+			"high": {
+				"percent": 21,
+				"description": "pier"
+			},
+			"medium": {
+				"percent": 15,
+				"description": "pedestal, plinth, footstall"
+			},
+			"low": {
+				"percent": 15,
+				"description": "megalith, megalithic structure"
+			}
+		}
+	},
+	{
+		"name": "03421023.webp",
+		"descriptions": {
+			"high": {
+				"percent": 13,
+				"description": "alp"
+			},
+			"medium": {
+				"percent": 9,
+				"description": "barn"
+			},
+			"low": {
+				"percent": 8,
+				"description": "maze, labyrinth"
+			}
+		}
+	},
+	{
+		"name": "03421024.webp",
+		"descriptions": {
+			"high": {
+				"percent": 70,
+				"description": "rapeseed"
+			},
+			"medium": {
+				"percent": 5,
+				"description": "barn"
+			},
+			"low": {
+				"percent": 5,
+				"description": "wing"
+			}
+		}
+	},
+	{
+		"name": "03421027.webp",
+		"descriptions": {
+			"high": {
+				"percent": 53,
+				"description": "barn"
+			},
+			"medium": {
+				"percent": 21,
+				"description": "worm fence, snake fence, snake-rail fence, Virginia fence"
+			},
+			"low": {
+				"percent": 18,
+				"description": "boathouse"
+			}
+		}
+	},
+	{
+		"name": "03421028.webp",
+		"descriptions": {
+			"high": {
+				"percent": 36,
+				"description": "radio telescope, radio reflector"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "palace"
+			},
+			"low": {
+				"percent": 6,
+				"description": "space shuttle"
+			}
+		}
+	},
+	{
+		"name": "03421044.webp",
+		"descriptions": {
+			"high": {
+				"percent": 53,
+				"description": "barn"
+			},
+			"medium": {
+				"percent": 30,
+				"description": "worm fence, snake fence, snake-rail fence, Virginia fence"
+			},
+			"low": {
+				"percent": 4,
+				"description": "hay"
+			}
+		}
+	},
+	{
+		"name": "03421051.webp",
+		"descriptions": {
+			"high": {
+				"percent": 96,
+				"description": "drilling platform, offshore rig"
+			},
+			"medium": {
+				"percent": 3,
+				"description": "crane"
+			},
+			"low": {
+				"percent": 0,
+				"description": "pirate, pirate ship"
+			}
+		}
+	},
+	{
+		"name": "03421053.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "liner, ocean liner"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "aircraft carrier, carrier, flattop, attack aircraft carrier"
+			},
+			"low": {
+				"percent": 0,
+				"description": "catamaran"
+			}
+		}
+	},
+	{
+		"name": "03421057.webp",
+		"descriptions": {
+			"high": {
+				"percent": 98,
+				"description": "liner, ocean liner"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "dock, dockage, docking facility"
+			},
+			"low": {
+				"percent": 0,
+				"description": "aircraft carrier, carrier, flattop, attack aircraft carrier"
+			}
+		}
+	},
+	{
+		"name": "03421059.webp",
+		"descriptions": {
+			"high": {
+				"percent": 93,
+				"description": "liner, ocean liner"
+			},
+			"medium": {
+				"percent": 3,
+				"description": "dock, dockage, docking facility"
+			},
+			"low": {
+				"percent": 1,
+				"description": "aircraft carrier, carrier, flattop, attack aircraft carrier"
+			}
+		}
+	},
+	{
+		"name": "03421064.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "drilling platform, offshore rig"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "crane"
+			},
+			"low": {
+				"percent": 0,
+				"description": "space shuttle"
+			}
+		}
+	},
+	{
+		"name": "03421065.webp",
+		"descriptions": {
+			"high": {
+				"percent": 95,
+				"description": "drilling platform, offshore rig"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "dock, dockage, docking facility"
+			},
+			"low": {
+				"percent": 0,
+				"description": "crane"
+			}
+		}
+	},
+	{
+		"name": "03421086.webp",
+		"descriptions": {
+			"high": {
+				"percent": 87,
+				"description": "airliner"
+			},
+			"medium": {
+				"percent": 10,
+				"description": "warplane, military plane"
+			},
+			"low": {
+				"percent": 0,
+				"description": "wing"
+			}
+		}
+	},
+	{
+		"name": "03421090.webp",
+		"descriptions": {
+			"high": {
+				"percent": 66,
+				"description": "airliner"
+			},
+			"medium": {
+				"percent": 24,
+				"description": "space shuttle"
+			},
+			"low": {
+				"percent": 6,
+				"description": "wing"
+			}
+		}
+	},
+	{
+		"name": "03421094.webp",
+		"descriptions": {
+			"high": {
+				"percent": 99,
+				"description": "liner, ocean liner"
+			},
+			"medium": {
+				"percent": 0,
+				"description": "fireboat"
+			},
+			"low": {
+				"percent": 0,
+				"description": "dock, dockage, docking facility"
+			}
+		}
+	}
+]

@@ -1,0 +1,51 @@
+<header class='w3-container w3-center w3-orange'>
+	<h1 class='w3-wide' style='font-size:40px'>
+		<b>
+			<span class='w3-text-white'>Fable</span>
+		</b>
+	</h1>
+	<p class='w3-wide w3-opacity w3-text-white'>image identifier</p>
+</header>
+<section class='w3-container w3-padding-32'>
+	<fieldset class='w3-border-orange w3-round'>
+		<legend class='w3-text-orange'><b>Send images</b></legend>
+		<p class='w3-center'>
+			Click below to choose the files to be sent for analysis.
+		</p>
+		<p class='w3-center'>
+			<label for='archives' class='w3-button w3-orange w3-round w3-hover-yellow w3-text-white'>Chose files</label>
+			<input class='w3-hide' type='file' id='archives' name='archives' onchange='archivesLoad()' multiple>
+		</p>
+	</fieldset>
+	
+	<fieldset class='w3-border-orange w3-round' id='viewResult' style='display:none'>
+		<legend class='w3-text-orange'><b>Results</b></legend>
+		<details class='w3-container w3-orange w3-text-white'>
+			<summary>
+				JSON
+				<button class='w3-button w3-tiny w3-yellow w3-round w3-hover-orange w3-hover-text-white' style='margin:2px;padding:2px;float:right' onclick='jsonCopy()'>Copy JSON</button>
+			</summary>
+			<div class='w3-yellow'>
+				<pre class='w3-yellow w3-tiny' style='overflow-x:auto' id="jsonView"></pre>
+			</div>
+		</details>
+		<details open class='w3-container w3-orange w3-text-white'>
+			<summary>Images</summary>
+			<div class='w3-yellow w3-center' id="imageView"></div>
+		</details>
+	</fieldset>
+
+</section>
+
+<section class='w3-modal' id='viewAwait'>
+	<div class="w3-modal-content w3-round">
+		<div class='w3-orange w3-round w3-small'>&nbsp;</div>
+		<div class='w3-panel w3-padding-16' id='w3cssLoad'>
+			<h3 class='w3-center  w3-text-green'>Await a moment, read images!</h3>
+			<p class='w3-center'><img src='jig/w3css/load.gif'></p>
+		</div>
+		<div class='w3-orange w3-round w3-small'>&nbsp;</div>
+	</div>
+</section>
+
+<textarea style='display:none' id="jsonHide"></textarea>

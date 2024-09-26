@@ -1,0 +1,2 @@
+# JIG
+## AI content generator

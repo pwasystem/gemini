@@ -1,0 +1,85 @@
+body > aside > nav > header {
+	width:100%;
+	text-align:center;
+}
+body > aside > nav > header > h1 {
+	margin-left:20%;
+	margin-right:20%;
+	padding:0px;
+	font-size:20px;
+}
+body > aside > nav > header > h1 > span {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	display:inline;
+}
+body > aside > nav {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	overflow: hidden;
+	height: 30px;
+	width:30px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	background-color: rgba(255,255,255,0);
+	backdrop-filter: blur(10px);
+	z-index:100;
+}
+body > aside > nav:hover {
+	height: 100%;
+	width:40%;
+	border-right:1px dashed silver;
+	background-color: rgba(255,255,255,0.1);
+}
+body > aside > nav > button {
+	display:block;
+	flex-shrink: 0;
+	width: 28px;
+	height: 28px;
+	margin:1px;
+	border: none;
+	font-weight:bold;
+	border-radius: 8px;
+	background-color:#113245;
+	font-weight:bold;
+	color:white;
+}
+body > aside > nav > button:hover {
+	background-color: rgba(17,50,69,0.5);
+}
+body > aside > nav > ul {
+	display:flex;
+	flex-direction:column;
+	text-align:left;
+	padding-left:0px;
+	margin:0px;
+	width:100%;
+}
+body > aside > nav > ul > li {
+	list-style-type: none;
+}
+body > aside > nav > ul > li > a {
+	display:block;
+	text-decoration:none;
+	margin:8px;
+	padding-left:8px;
+	padding-right:32px;
+	border-radius: 10px 10px 10px 10px;
+	width:90%;
+	text-align:left !important;
+	cursor:pointer;
+}
+body > aside > nav > ul > li > a:hover {
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(17,50,69,0.5));
+}
+body > main {
+	margin-top:0px;
+}
+@media (max-width: 480px) {
+	body > aside > nav > header > h1 > span {
+		display:none;
+	}
+}
