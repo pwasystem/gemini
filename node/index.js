@@ -48,7 +48,8 @@ app.post('/ai/:file', async (req, res) =>{
 	res.json(response);
 	//log
 	console.log('Server response!');
-	console.log(JSON.parse(response));
+	//normalize data
+	console.log(JSON.parse(response.replace(/ \\ /g," \\ ")));
 });
 
 //listen
@@ -57,7 +58,7 @@ app.listen(port, () => {
 });
 
 //AI Server
-const genAI = new GoogleGenerativeAI('AIzaSyCT1F5nI3Kdg78fPL0ZJGv6AbSTAteWTZY');
+const genAI = new GoogleGenerativeAI('');
 async function gemini(instructions,systemInstruction,history) {
 	var code = await  genAI.getGenerativeModel({
 		model : 'gemini-1.5-flash',

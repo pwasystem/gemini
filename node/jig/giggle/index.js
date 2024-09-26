@@ -1,16 +1,20 @@
-//Input
-const systemInstruction = 'Answer questions with giggle answers in user language.';
+const fs = require('fs');
+
+const systemInstruction = fileread('jig/giggle/instructions.txt');
+const roleUser = fileread('jig/giggle/input.txt');
+const roleModel = fileread('jig/giggle/output.txt');
+
 const history = [
 			{
 		role: "user",
 		parts: [
-			{text: "```json\n{\"question\":\"This test work?\"}\n```"},
+			{text: roleUser},
 		],
 	},
 	{
 		role: "model",
 		parts: [
-			{text: "```json\n{\"question\":\"This test work?\",\"answer\":\"Why not?\"}\n```\n"},
+			{text: roleModel},
 		],
 	},
 ];
@@ -20,3 +24,9 @@ exports.run = async (data,func) => {
 	//your function
 	return code;
 }
+
+//read files
+function fileread(filename){            
+   var contents = fs.readFileSync(filename);
+   return contents.toString();
+}  
