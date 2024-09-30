@@ -1,0 +1,23 @@
+#giggle_a{
+	position:relative;
+	top: 0px;
+	left: 25%;
+	right: 25%;
+	background:silver;
+}
+#giggle_b{
+	position:absolute;
+	top: 0%;
+	left: 0%;
+}
+#finder{
+	position:relative;
+	top:0px;
+	left:0px;
+}
+#button_1{
+	position:absolute;
+	right:0px;
+	top:0px;
+	min-width:50px
+}

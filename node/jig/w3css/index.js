@@ -32,6 +32,7 @@ exports.run = async (data,func) => {
 		let message;
 		data.file = hash(data.file);
 		data.project = hash(data.title);
+		if (!fs.existsSync(`html/${data.project}/`))fs.mkdirSync(`html/${data.project}/`);
 		data.archive = `html/${data.project}/${data.file}.html`;
 		
 		if(data.maker==`new`){
