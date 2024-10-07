@@ -4,11 +4,12 @@ services:
   node:
     image: ai-node
     container_name: IAServe
-    build: .
-    expose:
-      - 80
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "80:80"
     volumes:
       - ./node:/node
     working_dir: /node
+    restart: unless-stopped

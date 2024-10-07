@@ -1,0 +1,790 @@
+{
+	"name" : "Luiz Roberto Nogueira Junior",
+	"occupancy" : "Engenheiro de Software",
+	"city" : "Araraquara",
+	"state" : "SP",
+	"country" : "Brasil",
+	"email" : "luirnj@gmail.com",
+	"phone" : "16991152167",
+	"interests" : [
+		"Segurança da Informação",
+		"Desenvolvimento WEB",
+		"Gestão de TI"
+	],
+	"actings" : [
+		"Engenharia de software",
+		"Desenvolvimento de software",
+		"Segurança da informação",
+		"LGPD",
+		"Banco de dados",
+		"Hardware",
+		"Redes",
+		"Servidores",
+		"Containers",
+		"Sistemas operacionais",
+		"IoT",
+		"Nuvem",
+		"Multimídia",
+		"Ilustração",
+		"3D",
+		"Fotografia"
+	],
+	"languages" : [
+		{
+			"name" : "Inglês",
+			"level" : "Básico",
+			"percentage" : 25
+		},
+		{
+			"name" : "Espanhol",
+			"level" : "Intermediário",
+			"percentage" : 50
+		},
+		{
+			"name" : "Português",
+			"level" : "Nativo",
+			"percentage" : 100
+		}
+	],
+	"careers" : [
+		{
+			"firm" : "PosMemory",
+			"location" : "São Paulo (remoto)",
+			"role" : "Diretor de TI",
+			"period" : {
+				"start" : {
+					"month" : 3,
+					"year" : 2022
+				},
+				"end" : {
+					"month" : 12,
+					"year" : 2023
+				}
+			},
+			"actions" : "Gerenciamento de TI, otimização do sistema, segurança da Informação",
+			"realizations" : "Fui responsável pela criação da política de segurança da informação o mapeamento dos processos e do sistema para realizar a otimização do software após a realização de uma análise de risco",
+			"skills" : [
+				"PHP",
+				"MySQL",
+				"HTML",
+				"JavaScript",
+				"CSS",
+				"JSON",
+				"Apache",
+				"Google Cloud",
+				"WordPress",
+				"Cloudflare"
+			]
+		},
+		{
+			"firm" : "GATWAY",
+			"location" : "Araraquara - SP",
+			"role" : "Engenheiro de Software",
+			"period" : {
+				"start" : {
+					"month" : 1,
+					"year" : 2018
+				},
+				"end" : {
+					"month" : 12,
+					"year" : 2023
+				}
+			},
+			"actions" : "Planejamento, engenharia, desenvolvimento, testes, implantação, monitoramento e manutenção do sistema de controle de portaria remota. Análise de risco e consultoria sobre segurança de informação e LGPD.",
+			"realizations" : "Desenvolvimento da framework de controle de acesso a condomínios ‘Firewall’, padronização das funcionalidades para atender as exigências da LGPD, testes de segurança de rede e aplicações.",
+			"skills" : [
+				"PHP",
+				"MySQL",
+				"HTML",
+				"JavaScript",
+				"CSS",
+				"JSON",
+				"REST",
+				"IoT",
+				"Firebase Cloud Messaging",
+				"Apache",
+				"Google APIs",
+				"Unreal Stream Server",
+				"WebRTC"
+			]
+		},
+		{
+			"firm" : "Unimed",
+			"location" : "Araraquara",
+			"role" : "Coordenador da Área de Homepage",
+			"period" : {
+				"start" : {
+					"month" : 10 ,
+					"year" : 2004
+				},
+				"end" : {
+					"month" : 9,
+					"year" : 2017
+				}
+			},
+			"actions" : "Coordenação da área de homepage, análise, planejamento, desenvolvimento, testes, implantação, manutenção e suporte aos sistemas de internet, intranet e extranet para atender as normas regulamentadoras exigidas pela ANS",
+			"realizations" : "Criação e implantação da intranet e sistemas para as áreas financeira, contábil, faturamento, administrativa, auditoria médica, hospitalar e marketing reduzindo o consumo de papel na empresa. Desenvolvimento e implantação de sistemas de boletos e consultas de faturamento online para clientes e empresas. Criação do berçário virtual aumentando a visibilidade da empresa.",
+			"skills" : [
+				"PHP",
+				"MySQL",
+				"HTML",
+				"JavaScript",
+				"CSS",
+				"JSON",
+				"XML",
+				"Arquitetura Orientada a Serviços",
+				"REST",
+				"Google APIs",
+				"Flash",
+				"ActionScript",
+				"Oracle",
+				"MSSQL",
+				"PROGRESS",
+				"4GL",
+				"WebSpeed",
+				"Photoshop",
+				"GIMP",
+				"Corel Draw",
+				"Blender 3D",
+				"Inkscape",
+				"Configuração de servidores",
+				"Linux",
+				"Windows",
+				"Java",
+				"Python"
+			]
+		},
+		{
+			"firm" : "Sunrise NET",
+			"location" : "Araraquara - SP",
+			"role" : "Desenvolvedor Web Full Stack",
+			"period" : {
+				"start" : {
+					"month" : 2,
+					"year" : 2001
+				},
+				"end" : {
+					"month" : 3,
+					"year" : 2004
+				}
+			},
+			"actions" : "Planejamento, desenvolvimento, implantação, manutenção e suporte aos sites e sistemas da empresa e de clientes. Coordenação e treinamento de equipes, novos funcionários, estagiários e atendimento ao cliente.",
+			"realizations" : "Criação do site araraquara.com.br e elaboração da framework de desenvolvimento Gate, ferramenta que possibilitou o aumento significativo na velocidade da criação e gerenciamento de sites.",
+			"skills" : [
+				"ASP",
+				"PHP",
+				"MySQL",
+				"Oracle",
+				"HTML",
+				"JavaScript",
+				"CSS",
+				"JSON",
+				"XML",
+				"REST",
+				"Flash",
+				"ActionScript",
+				"Photoshop",
+				"GIMP",
+				"Corel Draw",
+				"Blender 3D",
+				"Inkscape",
+				"Configuração de servidores",
+				"Windows",
+				"Linux",
+				"Java",
+				"Python"
+			]
+		},
+		{
+			"firm" : "Nasser Comunicação",
+			"location" : "Araraquara - SP",
+			"role" : "Designer",
+			"period" : {
+				"start" : {
+					"month" : 1,
+					"year" : 2000
+				},
+				"end" : {
+					"month" : 7,
+					"year" : 2000
+				}
+			},
+			"actions" : "Gerenciamento, criação e produção de material publicitário e atendimento ao cliente.",
+			"realizations" : "Desenvolvimento de folders, banners, outdoor e outros trabalhos publicitários",
+			"skills" : [
+				"Corel Draw",
+				"Photoshop",
+				"Corel Photo Paint"
+			]
+		},
+		{
+			"firm" : "GTI Informática",
+			"location" : "Araraquara - SP",
+			"role" : "Almoxarife",
+			"period" : {
+				"start" : {
+					"month" : 3 ,
+					"year" : 1999
+				},
+				"end" : {
+					"month" : 10,
+					"year" : 1999
+				}
+			},
+			"actions" : "Gestão e controle dos materiais utiliados na implantação da rede de computadores da Secretaria da Fazenda do estado de São Paulo unidade Araraquara",
+			"realizations" : "Gestão de materiais de instalação de redes industriais e auxilio na instalação de componentes.",
+			"skills" : [
+				"Windows",
+				"Excel",
+				"Controle de materiais",
+				"Instalação de rede",
+				"Instalação elétrica"
+			]
+		},
+		{
+			"firm" : "Tottem Club",
+			"location" : "Araraquara - SP",
+			"role" : "Iluminador",
+			"period" : {
+				"start" : {
+					"month" : 7 ,
+					"year" : 1998
+				},
+				"end" : {
+					"month" : 3,
+					"year" : 1999
+				}
+			},
+			"actions" : "Gerenciamento e programação de aparelhos de iluminação.",
+			"realizations" : "Automatização do processo de iluminação e manutenção em alguns equipamentos.",
+			"skills" : [
+				"Eletrônica",
+				"Instalação elétrica",
+				"Light Jay"
+			]
+		},
+		{
+			"firm" : "Festa TNT",
+			"location" : "Araraquara - SP",
+			"role" : "Organizador de eventos",
+			"period" : {
+				"start" : {
+					"month" : 3 ,
+					"year" : 1994
+				},
+				"end" : {
+					"month" : 6,
+					"year" : 1998
+				}
+			},
+			"actions" : "Organização e decoração de eventos promocionais.",
+			"realizations" : "Organização de eventos e criação de decorações para festas das rádios e agências de publicidade.",
+			"skills" : [
+				"Designer",
+				"Organização de eventos",
+				"Artista plático"
+			]
+		},
+		{
+			"firm" : "City Game",
+			"location" : "Araraquara - SP",
+			"role" : "Atendente",
+			"period" : {
+				"start" : {
+					"month" : 10 ,
+					"year" : 1992
+				},
+				"end" : {
+					"month" : 3,
+					"year" : 1993
+				}
+			},
+			"actions" : "Atendimento ao cliente.",
+			"realizations" : "Atendimento aos clientes.",
+			"skills" : [
+				"Atendimento"
+			]
+		}
+	],					
+	"educations" : [
+		{
+			"institution": "Centro Universitário Senac",
+			"period" : {
+				"start" : {
+					"month" : 1 ,
+					"year" : 2018
+				},
+				"end" : {
+					"month" : 8,
+					"year" : 2020
+				}
+			},
+			"course" : "Superior de Tecnologia em Gestão da Tecnologia da Informação"						
+		}
+	],
+	"projects" : [
+		{
+			"name" : "WebSystem",
+			"link" : "https://github.com/pwasystem/websystem",
+			"description" : "CMS de código aberto para criação de portais e sistemas de internet e intranet."
+		},
+		{
+			"name" : "PWA System",
+			"link" : "https://www.pwasystem.com",
+			"description" : "Site pessoal para venda de serviços de TI."
+		},
+		{
+			"name" : "WebpoW",
+			"link" : "https://webpow.web.app",
+			"description" : "CMS para criação de sistemas PWA."
+		},
+		{
+			"name" : "Adobe Stock",
+			"link" : "https://stock.adobe.com/contributor/200602556/Spiderpoison",
+			"description" : "Minhas fotos a venda na Adobe Stock."
+		},
+		{
+			"name" : "SQLui",
+			"link" : "https://sqlui.sourceforge.net",
+			"description" : "Classe para criação de arquivos JSON através de comandos SQL."
+		},
+		{
+			"name" : "HTML Jig",
+			"link" : "https://htmljig.web.app",
+			"description" : "Sistema para criação de sites para o Google Firebase com o uso de Inteligência Artificial."
+		},
+		{
+			"name" : "DataAroma",
+			"link" : "https://dataaroma.web.app",
+			"description" : "Sistema de aromaterapia para consulta de informações sobre óleos esseciais e vegetais."
+		},
+		{
+			"name" : "Adverse Day",
+			"link" : "https://adverseday.web.app",
+			"description" : "Sistema para geração de frases pessimistas."
+		},
+		{
+			"name" : "72 Nomes de Deus",
+			"link" : "https://deus72.com.br/",
+			"description" : "Sistema para auxilio na meditação com a utilização dos 72 nomes de Deus."
+		},
+		{
+			"name" : "AutoREST",
+			"link" : "https://github.com/pwasystem/autorest",
+			"description" : "Backend para consultas em base de dados MySQL utilizando NodeJS."
+		},
+		{
+			"name" : "ZIP",
+			"link" : "https://github.com/pwasystem/zip",
+			"description" : "Script para geração de arquivos .zip através do navegador utilizando Javascript."
+		}
+	],
+	"courses": [
+		{
+			"name": "Authentication and Authorization with AWS Identity and Access Management",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "AWS Cloud Practitioner Essentials",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "AWS Foundations: Securing Your AWS Cloud",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "AWS Security Fundamentals",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "AWS Shared Responsibility Model",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "Differences Between Security Groups and NACLs",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "Getting Started with AWS Security, Identity, and Compliance",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "Introduction to Amazon Rekognition",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "Machine Learning Security",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "Protecting Your Instance with Security Groups",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "Understanding Amazon EBS Volume Encryption",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "What is Machine Learning",
+			"year": 2021,
+			"institution": "AWS Training and Certification",
+			"category": "Cloud Computing"
+		},
+		{
+			"name": "Hackers do Bem - Nivelamento",
+			"year": 2024,
+			"institution": "Escola Superior de Redes da RNP",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "Hackers do Bem - Básico",
+			"year": 2024,
+			"institution": "Escola Superior de Redes da RNP",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "Proteção de dados",
+			"year": 2023,
+			"institution": "FGV",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "LGPD a sua empresa está preparada",
+			"year": 2023,
+			"institution": "Sebrae",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "Fundamentos na Lei Geral de Proteção de dados",
+			"year": 2021,
+			"institution": "CertProf",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "Cyber Security Foundation",
+			"year": 2021,
+			"institution": "CertProf",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "Kali Linux for Beginners",
+			"year": 2021,
+			"institution": "eSecurity Academy",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "Network Security Expert certification NSE1 Network Security Associate",
+			"year": 2021,
+			"institution": "Fortinet NSE Institute",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "Network Security Expert certification NSE2 Network Security Associate",
+			"year": 2021,
+			"institution": "Fortinet NSE Institute",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "Protege tu Negocio: Ciberseguridad en el Teletrabajo",
+			"year": 2021,
+			"institution": "Google",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "Introdução à Lei Brasileira de Proteção de Dados Pessoais",
+			"year": 2020,
+			"institution": "Escola Nacional de Administração Pública",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "CNSS Certified Network Security Specialist",
+			"year": 2020,
+			"institution": "International Cybersecurity Institute UK",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "Cyber Security (Short Course)",
+			"year": 2020,
+			"institution": "Oxford eLearning College",
+			"category": "Segurança da Informação e LGPD"
+		},
+		{
+			"name": "Trilha Python",
+			"year": 2023,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Linguagem de Programação Python",
+			"year": 2023,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Fundamentos de Lógica de Programação",
+			"year": 2023,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Criando um Projeto com Interface Gráfica Utilizando a Linguagem Python",
+			"year": 2023,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Desenvolvendo um Projeto Completo Python com Estruturas de Dados",
+			"year": 2023,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Desenvolvimento Orientado a Objetos Utilizando a Linguagem Python",
+			"year": 2023,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Introdução à Programação Orientada a Objetos",
+			"year": 2023,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Learning with Python",
+			"year": 2023,
+			"institution": "Escola Nacional de Administração Pública",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Linguagem de Programação Java - Básico",
+			"year": 2021,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Linguagem de Programação Java - Avançado",
+			"year": 2021,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Implementando Banco de Dados",
+			"year": 2021,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Administrando Banco de Dados",
+			"year": 2021,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Modelagem de Dados",
+			"year": 2021,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "Linguagem de Modelagem Unificada - UML",
+			"year": 2021,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "HTML - Básico",
+			"year": 2018,
+			"institution": "Fundação Bradesco",
+			"category": "Desenvolvimento de Software"
+		},
+		{
+			"name": "What Is Generative AI?",
+			"year": 2023,
+			"institution": "LinkedIn Learning",
+			"category": "Inteligência Artificial"
+		},
+		{
+			"name": "Remote Work and Virtual Collaboration",
+			"year": 2021,
+			"institution": "CertProf",
+			"category": "DevOps e Metodologias Ágeis"
+		},
+		{
+			"name": "DevOps Essentials Professional Certificate",
+			"year": 2020,
+			"institution": "CertProf",
+			"category": "DevOps e Metodologias Ágeis"
+		},
+		{
+			"name": "Scrum Foundation Professional Certificate",
+			"year": 2020,
+			"institution": "CertProf",
+			"category": "DevOps e Metodologias Ágeis"
+		},
+		{
+			"name": "Supply Chain Management",
+			"year": 2012,
+			"institution": "Intel Next Generation Center",
+			"category": "Infraestrutura e Gerenciamento de TI"
+		},
+		{
+			"name": "Software Livre",
+			"year": 2012,
+			"institution": "Intel Next Generation Center",
+			"category": "Infraestrutura e Gerenciamento de TI"
+		},
+		{
+			"name": "CRM",
+			"year": 2012,
+			"institution": "Intel Next Generation Center",
+			"category": "Infraestrutura e Gerenciamento de TI"
+		},
+		{
+			"name": "ERP",
+			"year": 2012,
+			"institution": "Intel Next Generation Center",
+			"category": "Infraestrutura e Gerenciamento de TI"
+		},
+		{
+			"name": "Business Intelligence",
+			"year": 2012,
+			"institution": "Intel Next Generation Center",
+			"category": "Infraestrutura e Gerenciamento de TI"
+		},
+		{
+			"name": "Gerenciamento de TI",
+			"year": 2012,
+			"institution": "Intel Next Generation Center",
+			"category": "Infraestrutura e Gerenciamento de TI"
+		},
+		{
+			"name": "Verticalização",
+			"year": 2012,
+			"institution": "Intel Next Generation Center",
+			"category": "Infraestrutura e Gerenciamento de TI"
+		},
+		{
+			"name": "Storage",
+			"year": 2012,
+			"institution": "Intel Next Generation Center",
+			"category": "Infraestrutura e Gerenciamento de TI"
+		},
+		{
+			"name": "Curso básico de gestão de riscos corporativos",
+			"year": 2021,
+			"institution": "Universidade Federal de São Carlos",
+			"category": "Gestão de Projetos e Negócios"
+		},
+		{
+			"name": "Trilha - Artesão Empreendedor - Nível 1",
+			"year": 2021,
+			"institution": "Sebrae",
+			"category": "Gestão de Projetos e Negócios"
+		},
+		{
+			"name": "Trilha - Artesão Empreendedor - Nível 2",
+			"year": 2021,
+			"institution": "Sebrae",
+			"category": "Gestão de Projetos e Negócios"
+		},
+		{
+			"name": "Como elaborar um Plano de Negócios",
+			"year": 2018,
+			"institution": "Sebrae",
+			"category": "Gestão de Projetos e Negócios"
+		},
+		{
+			"name": "Fundamentos de Marketing Online",
+			"year": 2017,
+			"institution": "Google",
+			"category": "Marketing Digital"
+		},
+		{
+			"name": "Aspectos da linguagem fotográfica - Comunicação através da imagem",
+			"year": 2021,
+			"institution": "Universidade Federal de São Carlos",
+			"category": "Fotografia, Comunicação Visual e Multimídia"
+		},
+		{
+			"name": "Produção Musical",
+			"year": 2020,
+			"institution": "Aplitech Foundation",
+			"category": "Fotografia, Comunicação Visual e Multimídia"
+		},
+		{
+			"name": "Digital Photography",
+			"year": 2015,
+			"institution": "Alison",
+			"category": "Fotografia, Comunicação Visual e Multimídia"
+		}
+	],
+	"categories" : [
+		"Cloud Computing",
+		"Segurança da Informação e LGPD",
+		"Desenvolvimento de Software",
+		"Inteligência Artificial",
+		"DevOps e Metodologias Ágeis",
+		"Infraestrutura e Gerenciamento de TI",
+		"Gestão de Projetos e Negócios",
+		"Marketing Digital",
+		"Fotografia, Comunicação Visual e Multimídia"
+	],
+	"knowledges": [
+		{
+			"level": "Avançado",
+			"skills": [
+				"HTML", "CSS", "JavaScript", "PHP", "MySQL", "Flash", "ActionScript", "JSON", 
+				"REST", "SOAP", "SOA", "XML", "XSL", "Firebase", "expressões regulares", "PWA", 
+				"SPA", "segurança da informação", "computação em nuvem", "fotografia", 
+				"protocolos de redes e sistemas", "análise e desenvolvimento de sistemas", 
+				"Corel Draw", "Photoshop", "GIMP", "Inkscape", "Office", "Google APIs", 
+				"Criptografia", "Blender 3D", "QR code", "código de barras", 
+				"Unreal Stream Server", "Apache Web Server", "XAMPP", "IIS", "FTP", 
+				"gerenciamento de projetos", "análise de requisitos", "LGPD", "OWASP", "Node JS"
+			]
+		},
+		{
+			"level": "Intermediário",
+			"skills": [
+				"ASP", "BASIC", "DBASE II", "SQL Server", "Oracle", "Progress 4GL", "WebSpeed", 
+				"XQuery", "Rede", "Arquitetura Orientada a Serviços (SOA)", "governança corporativa", 
+				"firewalls", "produção musical", "eletrônica", "Android", "Java", "Arduino", 
+				"Google Cloud Platform (GCP)", "roteadores", "IoT", "WebRTC", "edição de vídeo", 
+				"Firebird", "ERP", "CRM", "direito digital", "análise de riscos", "TSQL", 
+				"administração de banco de dados", "Docker", "GIT", "GITHub"
+			]
+		},
+		{
+			"level": "Básico",
+			"skills": [
+				"Shell Script", "Batch", "COMMAND.COM", "Perl", "Python", "VBScript", "C", 
+				"C++", "Scrum", "DevOps", "Machine Learning", "Inteligência de Negócios (BI)", 
+				"Linux", "UML", "ITIL", "Cobitt", "ciência de serviços", "comunicação corporativa", 
+				"design e engenharia de serviço", "gestão de qualidade"
+			]
+		}
+	]
+}

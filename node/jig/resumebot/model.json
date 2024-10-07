@@ -1,0 +1,110 @@
+{
+	"name" : "candidate's name",
+	"occupancy" : "area of ​​occupation",
+	"city" : "candidate'scity",
+	"state" : "candidate'sstate",
+	"country" : "candidate'sBrasil",
+	"email" : "candidate's email",
+	"phone" : "candidate's phone number",
+	"interests" : [
+		"area of ​​interest",
+		...
+	],
+	"actings" : [
+		"area of ​​activity",
+		...
+	],
+	"languages" : [
+		{
+			"name" : "language name 1",
+			"level" : "level of knowledge 1 values(basic|medium|Advanced|Native)",
+			"percentage" : values(25|50|75|100)
+		},
+		...
+	],
+	"careers" : [
+		{
+			"firm" : "company name",
+			"location" : "city ​​- state | remote",
+			"role" : "role in the company",
+			"period" : {
+				"start" : {
+					"month" : values(1-12),
+					"year" : values(1900-2500)
+				},
+				"end" : {
+					"month" : values(1-12),
+					"year" : values(1900-2500)
+				}
+			},
+			"actions" : "activities performed",
+			"realizations" : "important achievements",
+			"skills" : [
+				"skill",
+				...
+			]
+		},
+		...
+	],					
+	"educations" : [
+		{
+			"institution": "name of the institution",
+			"period" : {
+				"start" : {
+					"month" : values(1-12),
+					"year" : values(1900-2500)
+				},
+				"end" : {
+					"month" : values(1-12),
+					"year" : values(1900-2500)
+				}
+			},
+			"course" : "course name"
+		},
+		...
+	],
+	"projects" : [
+		{
+			"name" : "project name",
+			"link" : "project url",
+			"description" : "project description"
+		},
+		...
+	],
+	"courses": [
+		{
+			"name": "course name",
+			"year": values(1900-2500),
+			"institution": "name of the institution",
+			"category": "course category"
+		},
+		...
+	],
+	"categories" : [
+		"courses category",
+		...
+	],
+	"knowledges": [
+		{
+			"level": "Avançado (> 5 years)",
+			"skills": [
+				"skill name",
+				...
+			]
+		},
+		{
+			"level": "Intermediário (> 3 years)",
+			"skills": [
+				"skill name",
+				...
+			]
+		},
+		{
+			"level": "Básico (> 1 year)",
+			"skills": [
+				"skill name",
+				...
+			]
+		}
+	]
+}

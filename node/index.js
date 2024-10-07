@@ -14,6 +14,7 @@ const app = express();
 
 //html
 app.get('/', (req, res) => sendFile(res,'html/index.html'));
+app.get('/login', (req, res) => sendFile(res,'html/login.html'));
 app.get('/:file', (req, res) => sendFile(res,'html/'+req.params.file));
 app.get('/jig/:project', (req, res) => sendFile(res,'jig/'+req.params.project+'/index.html'));
 app.get('/jig/:project/:file', (req, res) => sendFile(res,'jig/'+req.params.project+'/'+req.params.file));
@@ -88,3 +89,9 @@ async function gemini(instructions,systemInstruction,history) {
 	}).sendMessage(instructions);
 	return code.response.text();
 }
+
+//login
+app.post('/login', (req, res) => {
+	res.send(`{"token":"token_number"}`);
+	//sendFile(res,'login.js')
+});
