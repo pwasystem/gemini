@@ -54,7 +54,7 @@ function loadJig(jig){
 }
 function sendForm(sender,disable,callback){
 	const url = sender.action.split('/');
-	const action = '../../ai/'+url[3];
+	const action = `${sender.action}`;
 	const json = {};
 	const formData = new FormData(sender);
 	for (const [key, value] of formData.entries()) json[key] = value;
@@ -68,7 +68,7 @@ function sendForm(sender,disable,callback){
 	}).then(response => {
 		return response.json();
 	}).then(data => {
-		callback(JSON.parse(data));
+		callback(data);
 		disable(false);
 	}).catch(error => {
 		callback({"error":'Server error'});

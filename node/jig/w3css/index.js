@@ -1,28 +1,9 @@
 const fs = require('fs');
 const https = require('https');
 const http = require('http');
-	
-const systemInstruction = fileread('jig/w3css/template/instructions.txt');
-const roleUser = fileread('jig/w3css/template/input/pwasystem.html');
-const roleModel = fileread('jig/w3css/template/output/pwasystem.json');
-
-const history =  [
-      {
-        role: "user",
-        parts: [
-          {text: roleUser},
-        ],
-      },
-      {
-        role: "model",
-        parts: [
-          {text: roleModel},
-        ],
-      },
-    ];
 
 //Controller
-exports.run = async (data,func) => {	
+exports.run = async (data,func,jig) => {	
 	if(data.codesave){
 		console.log(`save file: `+data.filesave);
 		await saveFile(`html/${data.filesave}`,data.codesave);
@@ -33,9 +14,9 @@ exports.run = async (data,func) => {
 		data.file = hash(data.file);
 		data.project = hash(data.title);
 		if (!fs.existsSync(`html/${data.project}/`))fs.mkdirSync(`html/${data.project}/`);
-		data.archive = `html/${data.project}/${data.file}.html`;
-		
+		data.archive = `html/${data.project}/${data.file}.html`;		
 		if(data.maker==`new`){
+			
 			//create message
 			let template = await getTemplate(data.template); //get template
 			message=`
@@ -50,11 +31,11 @@ ${template}
 `;
 		} else {
 			//sugest changes
-			message=`${data.change} in the code bellow.\n\n${data.code}\n`;
+			message=`${data.change} in the filename ${data.file}, the code bellow.\n\n${data.code}\n`;
 		}
 		
 		//get code
-		var code = await func(message,systemInstruction,history);
+		var code = await func(message,jig);
 
 		//process images
 		if (data.imageSave=='true'){

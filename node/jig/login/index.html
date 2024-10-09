@@ -1,26 +1,66 @@
-<header class='w3-container w3-center w3-light-gray'>
+<header class='w3-container w3-center header-login'>
 	<h1 class='w3-wide' style='font-size:40px'>
 		<b>
 			<span class='w3-text-white'>Login</span>
 		</b>
 	</h1>
-	<p class='w3-wide w3-opacity w3-text-dark-gray'>Social Media Post Generator</p>
+	<p class='w3-wide w3-opacity w3-text-dark-gray'>Access JIG</p>
 </header>
-<section class='w3-panel w3-padding-64'>
-	<form method='post' name='generator' id='generator' action='posts' onsubmit='return sendForm(this,main.disable,main.callback)'>
-		<div class='w3-row'>
-			<div class='w3-col s2'>&nbsp;</div>
-			<div class='w3-col s8'>
-				<div class='w3-row w3-round-xxlarge w3-border w3-center w3-border-orange' style='box-shadow: 0px 0px 5px 5px rgba(255,255,0,0.5)' id='finder' >
-					<input class='w3-input w3-col s11 w3-round-xxlarge' style='border:none;width:100%' type='text' name='input' id='input' required>
-					<button class='w3-button w3-hover-opacity w3-hover-yellow w3-round-xxlarge w3-col s1 w3-right' name='button_1' id='button_1' type='submit'>☢️</button>
-				</div>
-			</div>
-			<div class='w3-col s2'>&nbsp;</div>
+<div class='w3-center w3-container w3-padding-64' style='max-width:500px;margin:auto'>
+	<span id='response'></span>
+	<div class='tabbed'>
+		<input type='radio' id='tab1' name='css-tabs' checked>
+		<input type='radio' id='tab2' name='css-tabs'>
+		<input type='radio' id='tab3' name='css-tabs'>
+		<ul class='tabs'>
+			<li class='tab'><label for='tab1'>Sign-in</label></li>
+			<li class='tab'><label for='tab2'>Sign-up</label></li>
+			<li class='tab'><label for='tab3'>Recover</label></li>
+		</ul>
+		<div class='tab-content'>
+			<form name='signin' id='signin' method='post' action='signin' onsubmit='return sendForm(this,main.disable,main.callback)'>
+				<p>
+					<input class='w3-input' type='email' required id='username_signin' name='username_signin' autocomplete value='mail@mail.com'>
+					<label for='username_signin'>E-mail</label>
+				</p>
+				<p>
+					<input class='w3-input' type='password' required id='password_signin' name='password_signin' value='password' autocomplete>
+					<label for='password_signin'>Password</label>
+				</p>
+				<p class='w3-padding-32'>
+					<button class='w3-btn w3-round login-btn' type='submit' id='submit_signin'>Sign-in</button>
+				</p>
+			</form>
+		</div>		
+		<div class='tab-content'>
+			<form name='signup' id='signup' method='post' action='signup' onsubmit='return sendForm(this,main.disable,main.callback)'>
+				<p>
+					<input class='w3-input' type='email' required id='username_signup' name='username_signup' autocomplete value='mail@mail.com'>
+					<label for='username_signup'>E-mail</label>
+				</p>
+				<p>
+					<input class='w3-input' type='password' required id='password_signup' name='password_signup' value='password' autocomplete>
+					<label for='password_signup'>Password</label>
+				</p>
+				<p>
+					<input class='w3-input' type='password' required id='confirm_signup' name='confirm_signup' value='password' autocomplete>
+					<label for='confirm_signup'>Confirm password</label>
+				</p>
+				<p class='w3-padding-32'>
+					<button class='w3-btn w3-round login-btn' type='submit' id='submit_signup'>Sign-up</button>
+				</p>
+			</form>
+		</div>		
+		<div class='tab-content'>
+			<form name='recover' id='recover' method='post' action='recover' onsubmit='return sendForm(this,main.disable,main.callback)'>
+				<p>
+					<input class='w3-input' type='text' id='username_recover' name='username_recover' value='mail@mail.com' autocomplete>
+					<label for='username_recover'>E-mail</label>
+				</p>
+				<p class='w3-padding-32'>
+					<button class='w3-btn w3-round login-btn' type='submit' id='submit_recover'>Recover</button>
+				</p>
+			</form>
 		</div>
-		<p class='w3-center w3-padding-64'>
-			<button class='w3-button w3-round w3-amber w3-text-white w3-hover-yellow w3-hover-text-dark-gray' name='button_2' id='button_2' type='submit'>Generate Post</button>
-			<div class='w3-container w3-left-align' style='margin-left:20%;margin-right:20%' id='view'></div>
-		</p>
-	</form>
-</section>
+	</div>	
+</div>

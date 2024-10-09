@@ -1,23 +1,73 @@
-#giggle_a{
-	position:relative;
-	top: 0px;
-	left: 25%;
-	right: 25%;
-	background:silver;
+.header-login{
+	background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(17,50,69,0.5));
+	color: white!important;
+	transition: all 0.5s;
 }
-#giggle_b{
-	position:absolute;
-	top: 0%;
-	left: 0%;
+.login-btn{
+	background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(17,50,69,0.5));
+	color: white!important;
+	transition: all 0.5s;
 }
-#finder{
-	position:relative;
-	top:0px;
-	left:0px;
+.login-btn:hover {
+	color: rgba(17,50,69,0.5)!important;
 }
-#button_1{
-	position:absolute;
-	right:0px;
-	top:0px;
-	min-width:50px
+
+.tabbed {
+	overflow-x: hidden;
+	border-bottom: 1px solid #ccc;
+}
+
+.tabbed [type='radio'] {
+	display: none;
+}
+
+.tabs {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.tab > label {
+	display: block;
+	margin-bottom: -1px;
+	padding: 12px 15px;
+	border: 1px solid #ccc;
+	color: white;
+	cursor: pointer;
+	transition: all 0.5s;
+	background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(17,50,69,0.5));
+}
+
+.tab:hover label {
+	color: rgba(17,50,69,0.5);
+}
+
+.tab-content {
+	display: none;
+	color: #777;
+	width:50%;
+	margin:auto;
+	padding-top:16px;
+	padding-bottom:16px
+}
+
+.tabbed [type='radio']:nth-of-type(1):checked ~ .tabs .tab:nth-of-type(1) label,
+.tabbed [type='radio']:nth-of-type(2):checked ~ .tabs .tab:nth-of-type(2) label,
+.tabbed [type='radio']:nth-of-type(3):checked ~ .tabs .tab:nth-of-type(3) label{
+	border-bottom-color: #fff;
+	background: #fff;
+	color: #222;
+}
+.tabbed [type='radio']:nth-of-type(1):checked ~ .tab-content:nth-of-type(1),
+.tabbed [type='radio']:nth-of-type(2):checked ~ .tab-content:nth-of-type(2),
+.tabbed [type='radio']:nth-of-type(3):checked ~ .tab-content:nth-of-type(3){
+	display: block;
+}
+
+.tab:nth-child(1) label{
+	border-radius:20px 0 0 0;
+}
+.tab:nth-child(3) label{
+	 border-radius:0 20px 0 0;
 }

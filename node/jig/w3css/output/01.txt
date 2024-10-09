@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>PWA System - AI-Powered Web & App Development</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://plus.unsplash.com/premium_photo-1664041273166-58f5fdf2e6d3?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#services" class="w3-button w3-block w3-black">SERVICES</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block w3-black">CONTACT</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">PWA<br>System</span>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large w3-hide-small">
+    <span class="w3-tag w3-text-white">AI-Powered Web & App Development</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT US</span></h5>
+    <p>PWA System is a leading provider of AI-powered web and mobile application development solutions. We leverage the power of artificial intelligence to create innovative, user-friendly, and high-performing applications that drive business success.</p>
+    <p>Our team of expert developers, designers, and AI specialists combines cutting-edge technology with creative thinking to deliver exceptional results. We are passionate about using AI to enhance the user experience and streamline business processes.</p>
+    <img src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?q=80&w=1406&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="width:100%;max-width:1000px" class="w3-margin-top">
+  </div>
+</div>
+
+<!-- Services Container -->
+<div class="w3-container" id="services">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">OUR SERVICES</span></h5>
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'webdev');" id="myLink">
+        <div class="w3-col s6 tablink">Web Development</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'appdev');">
+        <div class="w3-col s6 tablink">Mobile App Development</div>
+      </a>
+    </div>
+
+    <div id="webdev" class="w3-container menu w3-padding-48 w3-card">
+      <h5>AI-Powered Websites</h5>
+      <p class="w3-text-grey">We build intelligent websites that learn from user interactions and provide personalized experiences. From responsive designs to advanced functionalities, we deliver websites that drive engagement and conversions.</p><br>
+    
+      <h5>E-commerce Solutions</h5>
+      <p class="w3-text-grey">We create seamless e-commerce platforms powered by AI. Our solutions enable intelligent product recommendations, personalized shopping experiences, and optimized checkout processes.</p><br>
+    </div>
+
+    <div id="appdev" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Custom Mobile Apps</h5>
+      <p class="w3-text-grey">We build native and cross-platform mobile apps using AI to deliver engaging and user-friendly experiences. We specialize in developing apps that leverage AI capabilities like machine learning, natural language processing, and computer vision.</p><br>
+    
+      <h5>AI-Powered Chatbots</h5>
+      <p class="w3-text-grey">We develop intelligent chatbots that provide 24/7 customer support, automate tasks, and enhance user engagement. Our chatbots are trained on massive datasets to provide accurate and personalized responses.</p>
+    </div>  
+    <img src="https://plus.unsplash.com/premium_photo-1663023612721-e588768ef403?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container" id="contact" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">CONTACT US</span></h5>
+    <p>Let's discuss your project and how AI can empower your business.</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
+      <p><textarea class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></textarea></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://htmljig.web.app" title="HTML Jig" target="_blank" class="w3-hover-text-green">HTML Jig</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+	var i, x, tablinks;
+	x = document.getElementsByClassName("menu");
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablink");
+	for (i = 0; i < x.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+	}
+	document.getElementById(menuName).style.display = "block";
+	evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
