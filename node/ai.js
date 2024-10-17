@@ -1,20 +1,18 @@
-const fs = require('fs');
-const {
+import fs from 'fs';
+import {
 	GoogleGenerativeAI,
 	HarmCategory,
 	HarmBlockThreshold,
-} = require("@google/generative-ai");
+} from "@google/generative-ai";
 
-class AI {
+export default class Ai {
 
-	constructor (key,jig) {
+	constructor (key) {
 		this.key = key;
-		this.jig = jig;
 	}
 
-	async gemini(instructions) {
+	async gemini(instructions,jig) {
 		const key = this.key;
-		const jig = this.jig;
 		const history = [];
 		//load system instructions and history
 		await fs.readdir(`jig/${jig}/input`, (err, files) => {
@@ -73,5 +71,3 @@ class AI {
 	}
 
 }
-
-module.exports = AI;

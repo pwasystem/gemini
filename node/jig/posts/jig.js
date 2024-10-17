@@ -1,14 +1,9 @@
-class JIG {
-	constructor (ai,data) {
-		this.ai = ai;
-		this.data = data;
-	}
-	async run(){		
-		var output = await this.ai.gemini(this.data.input);
+export default class Jig {	
+	//run jig
+	async run(ai,data){		
+		var output = await ai.gemini(data.input,`posts`);
 		return {
 			 output : output
 		};
 	}
 }
-
-module.exports = JIG;

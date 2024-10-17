@@ -1,0 +1,602 @@
+<html><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+		<title>Curriculo Vitae</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+		<style>
+			html,body,h1,h2,h3,h4,h5,h6 {{font-family: "Roboto", sans-serif}}
+		</style>
+		<script>
+			var app = angular.module('myApp', []);
+			app.controller('myCtrl',$scope => {
+				$scope.cv = null;
+				fetch('cv.json').then(
+					response => {
+					return response.json();
+				}).then(
+					json => {
+						$scope.$apply(() => {
+							$scope.cv = json;
+						});
+					}
+				);
+			});
+		</script>
+	</head>
+	<body class="w3-light-grey ng-scope" ng-app="myApp" ng-controller="myCtrl">
+		<!-- Page Container -->
+		<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+			<!-- The Grid -->
+			<div class="w3-row-padding">
+
+			<!-- Left Column -->
+			<div class="w3-third">
+
+				<div class="w3-white w3-text-grey w3-card-4">
+					<div class="w3-container">
+						<h2 class="ng-binding">Luiz Roberto Nogueira Junior</h2>
+					</div>
+					<div class="w3-container">
+						<p class="ng-binding">
+							<i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-dark-gray"></i>
+							Engenheiro de Software
+						</p>
+						<p class="ng-binding">
+							<i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-dark-gray"></i>
+							Araraquara - SP, Brasil
+						</p>
+						<p class="ng-binding">
+							<i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-dark-gray"></i>
+							luirnj@gmail.com
+						</p>
+						<p class="ng-binding">
+							<i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-dark-gray"></i>
+							+55 (16) 99115-2167
+						</p>
+						<hr>
+						<p class="w3-large">
+							<b>
+								<i class="fa fa-asterisk fa-fw w3-margin-right w3-text-dark-gray"></i>
+								Interesse
+							</b>
+						</p>
+						<ul>
+							<!-- ngRepeat: interest in cv.interests --><li ng-repeat="interest in cv.interests" class="ng-binding ng-scope">
+								Segurança da Informação
+							</li><!-- end ngRepeat: interest in cv.interests --><li ng-repeat="interest in cv.interests" class="ng-binding ng-scope">
+								Engenharia e Desenvolvimento de software
+							</li><!-- end ngRepeat: interest in cv.interests --><li ng-repeat="interest in cv.interests" class="ng-binding ng-scope">
+								Inteligência Artificial
+							</li><!-- end ngRepeat: interest in cv.interests --><li ng-repeat="interest in cv.interests" class="ng-binding ng-scope">
+								Gestão de TI
+							</li><!-- end ngRepeat: interest in cv.interests -->
+						</ul>
+						<hr>
+						<details>
+							<summary class="w3-large">
+								<b>
+									<!--i class="fa fa-asterisk fa-fw w3-margin-right w3-text-dark-gray"></i-->
+									Áreas de Atuação
+								</b>
+							</summary>
+							<ul>
+								<!-- ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Engenharia de software
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Desenvolvimento de software
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Segurança da informação
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Inteligência artificial
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									LGPD
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Banco de dados
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Hardware
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Redes
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Servidores
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Containers
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Sistemas operacionais
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									IoT
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Nuvem
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Multimídia
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Ilustração
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									3D
+								</li><!-- end ngRepeat: acting in cv.actings --><li ng-repeat="acting in cv.actings" class="ng-binding ng-scope">
+									Fotografia
+								</li><!-- end ngRepeat: acting in cv.actings -->
+							</ul>
+						</details>
+						
+						<hr>
+						<p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-dark-gray"></i>Idiomas</b></p>
+						<!-- ngRepeat: language in cv.languages --><div ng-repeat="language in cv.languages" class="ng-scope">
+							<p class="ng-binding">Inglês - Básico</p>
+							<div class="w3-light-grey w3-round-xlarge">
+								<div class="w3-round-xlarge w3-dark-gray" style="height:24px;width:25%"></div>
+							</div>
+						</div><!-- end ngRepeat: language in cv.languages --><div ng-repeat="language in cv.languages" class="ng-scope">
+							<p class="ng-binding">Espanhol - Intermediário</p>
+							<div class="w3-light-grey w3-round-xlarge">
+								<div class="w3-round-xlarge w3-dark-gray" style="height:24px;width:50%"></div>
+							</div>
+						</div><!-- end ngRepeat: language in cv.languages --><div ng-repeat="language in cv.languages" class="ng-scope">
+							<p class="ng-binding">Português - Nativo</p>
+							<div class="w3-light-grey w3-round-xlarge">
+								<div class="w3-round-xlarge w3-dark-gray" style="height:24px;width:100%"></div>
+							</div>
+						</div><!-- end ngRepeat: language in cv.languages -->
+						<br>
+					</div>
+				</div>
+				<br>
+				<!-- End Left Column -->
+				</div>
+				<!-- Right Column -->
+				<div class="w3-twothird">
+					<div class="w3-container w3-card w3-white w3-margin-bottom">
+						<h2 class="w3-text-grey w3-padding-16">
+							<i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-dark-gray"></i>
+							Experiência Profissional
+						</h2>
+						<!-- ngRepeat: career in cv.careers --><details class="w3-container ng-scope" ng-repeat="career in cv.careers">
+							<summary class="w3-opacity">
+								<b class="ng-binding">PosMemory, São Paulo (remoto) — Diretor de TI</b>
+							</summary>
+							<h6 class="w3-text-dark-gray ng-binding"><i class="fa fa-calendar fa-fw w3-margin-right"></i>3/2022 - 12/2023</h6>
+							<p class="ng-binding">Gerenciamento de TI, otimização do sistema, segurança da Informação</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Realizações:</i> Fui responsável pela criação da política de segurança da informação o mapeamento dos processos e do sistema para realizar a otimização do software após a realização de uma análise de risco</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Habilidades:</i> PHP, MySQL, HTML, JavaScript, CSS, JSON, Apache, Google Cloud, WordPress, Cloudflare.</p>
+							<hr>
+						</details><!-- end ngRepeat: career in cv.careers --><details class="w3-container ng-scope" ng-repeat="career in cv.careers">
+							<summary class="w3-opacity">
+								<b class="ng-binding">GATWAY, Araraquara - SP — Engenheiro de Software</b>
+							</summary>
+							<h6 class="w3-text-dark-gray ng-binding"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1/2018 - 12/2023</h6>
+							<p class="ng-binding">Planejamento, engenharia, desenvolvimento, testes, implantação, monitoramento e manutenção do sistema de controle de portaria remota. Análise de risco e consultoria sobre segurança de informação e LGPD.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Realizações:</i> Desenvolvimento da framework de controle de acesso a condomínios ‘Firewall’, padronização das funcionalidades para atender as exigências da LGPD, testes de segurança de rede e aplicações.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Habilidades:</i> PHP, MySQL, HTML, JavaScript, CSS, JSON, REST, IoT, Firebase Cloud Messaging, Apache, Google APIs, Unreal Stream Server, WebRTC.</p>
+							<hr>
+						</details><!-- end ngRepeat: career in cv.careers --><details class="w3-container ng-scope" ng-repeat="career in cv.careers">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Unimed, Araraquara — Coordenador da Área de Homepage</b>
+							</summary>
+							<h6 class="w3-text-dark-gray ng-binding"><i class="fa fa-calendar fa-fw w3-margin-right"></i>10/2004 - 9/2017</h6>
+							<p class="ng-binding">Coordenação da área de homepage, análise, planejamento, desenvolvimento, testes, implantação, manutenção e suporte aos sistemas de internet, intranet e extranet para atender as normas regulamentadoras exigidas pela ANS</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Realizações:</i> Criação e implantação da intranet e sistemas para as áreas financeira, contábil, faturamento, administrativa, auditoria médica, hospitalar e marketing reduzindo o consumo de papel na empresa. Desenvolvimento e implantação de sistemas de boletos e consultas de faturamento online para clientes e empresas. Criação do berçário virtual aumentando a visibilidade da empresa.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Habilidades:</i> PHP, MySQL, HTML, JavaScript, CSS, JSON, XML, Arquitetura Orientada a Serviços, REST, Google APIs, Flash, ActionScript, Oracle, MSSQL, PROGRESS, 4GL, WebSpeed, Photoshop, GIMP, Corel Draw, Blender 3D, Inkscape, Configuração de servidores, Linux, Windows, Java, Python.</p>
+							<hr>
+						</details><!-- end ngRepeat: career in cv.careers --><details class="w3-container ng-scope" ng-repeat="career in cv.careers">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Sunrise NET, Araraquara - SP — Desenvolvedor Web Full Stack</b>
+							</summary>
+							<h6 class="w3-text-dark-gray ng-binding"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2/2001 - 3/2004</h6>
+							<p class="ng-binding">Planejamento, desenvolvimento, implantação, manutenção e suporte aos sites e sistemas da empresa e de clientes. Coordenação e treinamento de equipes, novos funcionários, estagiários e atendimento ao cliente.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Realizações:</i> Criação do site araraquara.com.br e elaboração da framework de desenvolvimento Gate, ferramenta que possibilitou o aumento significativo na velocidade da criação e gerenciamento de sites.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Habilidades:</i> ASP, PHP, MySQL, Oracle, HTML, JavaScript, CSS, JSON, XML, REST, Flash, ActionScript, Photoshop, GIMP, Corel Draw, Blender 3D, Inkscape, Configuração de servidores, Windows, Linux, Java, Python.</p>
+							<hr>
+						</details><!-- end ngRepeat: career in cv.careers --><details class="w3-container ng-scope" ng-repeat="career in cv.careers">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Nasser Comunicação, Araraquara - SP — Designer</b>
+							</summary>
+							<h6 class="w3-text-dark-gray ng-binding"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1/2000 - 7/2000</h6>
+							<p class="ng-binding">Gerenciamento, criação e produção de material publicitário e atendimento ao cliente.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Realizações:</i> Desenvolvimento de folders, banners, outdoor e outros trabalhos publicitários</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Habilidades:</i> Corel Draw, Photoshop, Corel Photo Paint.</p>
+							<hr>
+						</details><!-- end ngRepeat: career in cv.careers --><details class="w3-container ng-scope" ng-repeat="career in cv.careers">
+							<summary class="w3-opacity">
+								<b class="ng-binding">GTI Informática, Araraquara - SP — Almoxarife</b>
+							</summary>
+							<h6 class="w3-text-dark-gray ng-binding"><i class="fa fa-calendar fa-fw w3-margin-right"></i>3/1999 - 10/1999</h6>
+							<p class="ng-binding">Gestão e controle dos materiais utiliados na implantação da rede de computadores da Secretaria da Fazenda do estado de São Paulo unidade Araraquara</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Realizações:</i> Gestão de materiais de instalação de redes industriais e auxilio na instalação de componentes.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Habilidades:</i> Windows, Excel, Controle de materiais, Instalação de rede, Instalação elétrica.</p>
+							<hr>
+						</details><!-- end ngRepeat: career in cv.careers --><details class="w3-container ng-scope" ng-repeat="career in cv.careers">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Tottem Club, Araraquara - SP — Iluminador</b>
+							</summary>
+							<h6 class="w3-text-dark-gray ng-binding"><i class="fa fa-calendar fa-fw w3-margin-right"></i>7/1998 - 3/1999</h6>
+							<p class="ng-binding">Gerenciamento e programação de aparelhos de iluminação.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Realizações:</i> Automatização do processo de iluminação e manutenção em alguns equipamentos.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Habilidades:</i> Eletrônica, Instalação elétrica, Light Jay.</p>
+							<hr>
+						</details><!-- end ngRepeat: career in cv.careers --><details class="w3-container ng-scope" ng-repeat="career in cv.careers">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Festa TNT, Araraquara - SP — Organizador de eventos</b>
+							</summary>
+							<h6 class="w3-text-dark-gray ng-binding"><i class="fa fa-calendar fa-fw w3-margin-right"></i>3/1994 - 6/1998</h6>
+							<p class="ng-binding">Organização e decoração de eventos promocionais.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Realizações:</i> Organização de eventos e criação de decorações para festas das rádios e agências de publicidade.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Habilidades:</i> Designer, Organização de eventos, Artista plático.</p>
+							<hr>
+						</details><!-- end ngRepeat: career in cv.careers --><details class="w3-container ng-scope" ng-repeat="career in cv.careers">
+							<summary class="w3-opacity">
+								<b class="ng-binding">City Game, Araraquara - SP — Atendente</b>
+							</summary>
+							<h6 class="w3-text-dark-gray ng-binding"><i class="fa fa-calendar fa-fw w3-margin-right"></i>10/1992 - 3/1993</h6>
+							<p class="ng-binding">Atendimento ao cliente.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Realizações:</i> Atendimento aos clientes.</p>
+							<p class="w3-small ng-binding"><i class="w3-opacity">Habilidades:</i> Atendimento.</p>
+							<hr>
+						</details><!-- end ngRepeat: career in cv.careers -->
+						<br>
+					</div>
+					<div class="w3-container w3-card w3-white">
+						<h2 class="w3-text-grey w3-padding-16">
+							<i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-dark-gray"></i>
+							Formação Acadêmica
+						</h2>
+						<!-- ngRepeat: education in cv.educations --><details class="w3-container ng-scope" ng-repeat="education in cv.educations">
+							<summary class="w3-opacity w3-large">
+								<b class="ng-binding">Centro Universitário Senac</b>
+							</summary>
+							<h6 class="w3-text-dark-gray ng-binding">
+								<i class="fa fa-calendar fa-fw w3-margin-right"></i>
+								1/2018 - 8/2020
+							</h6>
+							<p class="ng-binding">Superior de Tecnologia em Gestão da Tecnologia da Informação</p>
+							<hr>
+						</details><!-- end ngRepeat: education in cv.educations -->
+						<br>
+					</div>
+					<div class="w3-container w3-card w3-white">
+						<h2 class="w3-text-grey w3-padding-16">
+							<i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-dark-gray"></i>
+							Projetos e Links
+						</h2>					
+						<!-- ngRepeat: project in cv.projects --><details class="w3-container ng-scope" ng-repeat="project in cv.projects">
+							<summary class="w3-opacity">
+								<b class="ng-binding">WebSystem</b>
+							</summary>
+							<h6 class="w3-text-dark-gray">
+								<i class="fa fa-link fa-fw w3-margin-right"></i>
+								<a href="https://github.com/pwasystem/websystem" target="_blank" class="ng-binding">https://github.com/pwasystem/websystem</a>
+							</h6>
+							<p class="ng-binding">CMS de código aberto para criação de portais e sistemas de internet e intranet.</p>
+							<hr>
+						</details><!-- end ngRepeat: project in cv.projects --><details class="w3-container ng-scope" ng-repeat="project in cv.projects">
+							<summary class="w3-opacity">
+								<b class="ng-binding">PWA System</b>
+							</summary>
+							<h6 class="w3-text-dark-gray">
+								<i class="fa fa-link fa-fw w3-margin-right"></i>
+								<a href="https://www.pwasystem.com" target="_blank" class="ng-binding">https://www.pwasystem.com</a>
+							</h6>
+							<p class="ng-binding">Site pessoal para venda de serviços de TI.</p>
+							<hr>
+						</details><!-- end ngRepeat: project in cv.projects --><details class="w3-container ng-scope" ng-repeat="project in cv.projects">
+							<summary class="w3-opacity">
+								<b class="ng-binding">WebpoW</b>
+							</summary>
+							<h6 class="w3-text-dark-gray">
+								<i class="fa fa-link fa-fw w3-margin-right"></i>
+								<a href="https://webpow.web.app" target="_blank" class="ng-binding">https://webpow.web.app</a>
+							</h6>
+							<p class="ng-binding">CMS para criação de sistemas PWA.</p>
+							<hr>
+						</details><!-- end ngRepeat: project in cv.projects --><details class="w3-container ng-scope" ng-repeat="project in cv.projects">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Adobe Stock</b>
+							</summary>
+							<h6 class="w3-text-dark-gray">
+								<i class="fa fa-link fa-fw w3-margin-right"></i>
+								<a href="https://stock.adobe.com/contributor/200602556/Spiderpoison" target="_blank" class="ng-binding">https://stock.adobe.com/contributor/200602556/Spiderpoison</a>
+							</h6>
+							<p class="ng-binding">Minhas fotos a venda na Adobe Stock.</p>
+							<hr>
+						</details><!-- end ngRepeat: project in cv.projects --><details class="w3-container ng-scope" ng-repeat="project in cv.projects">
+							<summary class="w3-opacity">
+								<b class="ng-binding">SQLui</b>
+							</summary>
+							<h6 class="w3-text-dark-gray">
+								<i class="fa fa-link fa-fw w3-margin-right"></i>
+								<a href="https://sqlui.sourceforge.net" target="_blank" class="ng-binding">https://sqlui.sourceforge.net</a>
+							</h6>
+							<p class="ng-binding">Classe para criação de arquivos JSON através de comandos SQL.</p>
+							<hr>
+						</details><!-- end ngRepeat: project in cv.projects --><details class="w3-container ng-scope" ng-repeat="project in cv.projects">
+							<summary class="w3-opacity">
+								<b class="ng-binding">HTML Jig</b>
+							</summary>
+							<h6 class="w3-text-dark-gray">
+								<i class="fa fa-link fa-fw w3-margin-right"></i>
+								<a href="https://htmljig.web.app" target="_blank" class="ng-binding">https://htmljig.web.app</a>
+							</h6>
+							<p class="ng-binding">Sistema para criação de sites para o Google Firebase com o uso de Inteligência Artificial.</p>
+							<hr>
+						</details><!-- end ngRepeat: project in cv.projects --><details class="w3-container ng-scope" ng-repeat="project in cv.projects">
+							<summary class="w3-opacity">
+								<b class="ng-binding">DataAroma</b>
+							</summary>
+							<h6 class="w3-text-dark-gray">
+								<i class="fa fa-link fa-fw w3-margin-right"></i>
+								<a href="https://dataaroma.web.app" target="_blank" class="ng-binding">https://dataaroma.web.app</a>
+							</h6>
+							<p class="ng-binding">Sistema de aromaterapia para consulta de informações sobre óleos esseciais e vegetais.</p>
+							<hr>
+						</details><!-- end ngRepeat: project in cv.projects --><details class="w3-container ng-scope" ng-repeat="project in cv.projects">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Adverse Day</b>
+							</summary>
+							<h6 class="w3-text-dark-gray">
+								<i class="fa fa-link fa-fw w3-margin-right"></i>
+								<a href="https://adverseday.web.app" target="_blank" class="ng-binding">https://adverseday.web.app</a>
+							</h6>
+							<p class="ng-binding">Sistema para geração de frases pessimistas.</p>
+							<hr>
+						</details><!-- end ngRepeat: project in cv.projects --><details class="w3-container ng-scope" ng-repeat="project in cv.projects">
+							<summary class="w3-opacity">
+								<b class="ng-binding">72 Nomes de Deus</b>
+							</summary>
+							<h6 class="w3-text-dark-gray">
+								<i class="fa fa-link fa-fw w3-margin-right"></i>
+								<a href="https://deus72.com.br/" target="_blank" class="ng-binding">https://deus72.com.br/</a>
+							</h6>
+							<p class="ng-binding">Sistema para auxilio na meditação com a utilização dos 72 nomes de Deus.</p>
+							<hr>
+						</details><!-- end ngRepeat: project in cv.projects --><details class="w3-container ng-scope" ng-repeat="project in cv.projects">
+							<summary class="w3-opacity">
+								<b class="ng-binding">AutoREST</b>
+							</summary>
+							<h6 class="w3-text-dark-gray">
+								<i class="fa fa-link fa-fw w3-margin-right"></i>
+								<a href="https://github.com/pwasystem/autorest" target="_blank" class="ng-binding">https://github.com/pwasystem/autorest</a>
+							</h6>
+							<p class="ng-binding">Backend para consultas em base de dados MySQL utilizando NodeJS.</p>
+							<hr>
+						</details><!-- end ngRepeat: project in cv.projects --><details class="w3-container ng-scope" ng-repeat="project in cv.projects">
+							<summary class="w3-opacity">
+								<b class="ng-binding">ZIP</b>
+							</summary>
+							<h6 class="w3-text-dark-gray">
+								<i class="fa fa-link fa-fw w3-margin-right"></i>
+								<a href="https://github.com/pwasystem/zip" target="_blank" class="ng-binding">https://github.com/pwasystem/zip</a>
+							</h6>
+							<p class="ng-binding">Script para geração de arquivos .zip através do navegador utilizando Javascript.</p>
+							<hr>
+						</details><!-- end ngRepeat: project in cv.projects -->
+						<br>
+					</div>
+					<div class="w3-container w3-card w3-white">
+						<h2 class="w3-text-grey w3-padding-16">
+							<i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-dark-gray"></i>
+							Certificações e Certificados
+						</h2>
+						<!-- ngRepeat: category in cv.categories --><details class="w3-container ng-scope" ng-repeat="category in cv.categories">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Cloud Computing</b>
+							</summary>
+							<ul class="w3-small">
+								<!-- ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Authentication and Authorization with AWS Identity and Access Management - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - AWS Cloud Practitioner Essentials - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - AWS Foundations: Securing Your AWS Cloud - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - AWS Security Fundamentals - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - AWS Shared Responsibility Model - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Differences Between Security Groups and NACLs - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Getting Started with AWS Security, Identity, and Compliance - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Introduction to Amazon Rekognition - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Machine Learning Security - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Protecting Your Instance with Security Groups - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Understanding Amazon EBS Volume Encryption - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - What is Machine Learning - AWS Training and Certification 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } -->					
+							</ul>				
+						</details><!-- end ngRepeat: category in cv.categories --><details class="w3-container ng-scope" ng-repeat="category in cv.categories">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Segurança da Informação e LGPD</b>
+							</summary>
+							<ul class="w3-small">
+								<!-- ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2024 - Cyber Academy - Febraban 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2024 - Hackers do Bem - Nivelamento - Escola Superior de Redes da RNP 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2024 - Hackers do Bem - Básico - Escola Superior de Redes da RNP 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2023 - Proteção de dados - FGV 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2023 - LGPD a sua empresa está preparada - Sebrae 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Fundamentos na Lei Geral de Proteção de dados - CertProf 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Cyber Security Foundation - CertProf 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Kali Linux for Beginners - eSecurity Academy 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Network Security Expert certification NSE1 Network Security Associate - Fortinet NSE Institute 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Network Security Expert certification NSE2 Network Security Associate - Fortinet NSE Institute 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Protege tu Negocio: Ciberseguridad en el Teletrabajo - Google 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2020 - Introdução à Lei Brasileira de Proteção de Dados Pessoais - Escola Nacional de Administração Pública 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2020 - CNSS Certified Network Security Specialist - International Cybersecurity Institute UK 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2020 - Cyber Security (Short Course) - Oxford eLearning College 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } -->					
+							</ul>				
+						</details><!-- end ngRepeat: category in cv.categories --><details class="w3-container ng-scope" ng-repeat="category in cv.categories">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Desenvolvimento de Software</b>
+							</summary>
+							<ul class="w3-small">
+								<!-- ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2023 - Trilha Python - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2023 - Linguagem de Programação Python - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2023 - Fundamentos de Lógica de Programação - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2023 - Criando um Projeto com Interface Gráfica Utilizando a Linguagem Python - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2023 - Desenvolvendo um Projeto Completo Python com Estruturas de Dados - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2023 - Desenvolvimento Orientado a Objetos Utilizando a Linguagem Python - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2023 - Introdução à Programação Orientada a Objetos - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2023 - Learning with Python - Escola Nacional de Administração Pública 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Linguagem de Programação Java - Básico - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Linguagem de Programação Java - Avançado - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Implementando Banco de Dados - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Administrando Banco de Dados - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Modelagem de Dados - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Linguagem de Modelagem Unificada - UML - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2018 - HTML - Básico - Fundação Bradesco 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } -->					
+							</ul>				
+						</details><!-- end ngRepeat: category in cv.categories --><details class="w3-container ng-scope" ng-repeat="category in cv.categories">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Inteligência Artificial</b>
+							</summary>
+							<ul class="w3-small">
+								<!-- ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2023 - What Is Generative AI? - LinkedIn Learning 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } -->					
+							</ul>				
+						</details><!-- end ngRepeat: category in cv.categories --><details class="w3-container ng-scope" ng-repeat="category in cv.categories">
+							<summary class="w3-opacity">
+								<b class="ng-binding">DevOps e Metodologias Ágeis</b>
+							</summary>
+							<ul class="w3-small">
+								<!-- ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Remote Work and Virtual Collaboration - CertProf 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2020 - DevOps Essentials Professional Certificate - CertProf 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2020 - Scrum Foundation Professional Certificate - CertProf 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } -->					
+							</ul>				
+						</details><!-- end ngRepeat: category in cv.categories --><details class="w3-container ng-scope" ng-repeat="category in cv.categories">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Infraestrutura e Gerenciamento de TI</b>
+							</summary>
+							<ul class="w3-small">
+								<!-- ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2012 - Supply Chain Management - Intel Next Generation Center 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2012 - Software Livre - Intel Next Generation Center 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2012 - CRM - Intel Next Generation Center 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2012 - ERP - Intel Next Generation Center 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2012 - Business Intelligence - Intel Next Generation Center 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2012 - Gerenciamento de TI - Intel Next Generation Center 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2012 - Verticalização - Intel Next Generation Center 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2012 - Storage - Intel Next Generation Center 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } -->					
+							</ul>				
+						</details><!-- end ngRepeat: category in cv.categories --><details class="w3-container ng-scope" ng-repeat="category in cv.categories">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Gestão de Projetos e Negócios</b>
+							</summary>
+							<ul class="w3-small">
+								<!-- ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Curso básico de gestão de riscos corporativos - Universidade Federal de São Carlos 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Trilha - Artesão Empreendedor - Nível 1 - Sebrae 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Trilha - Artesão Empreendedor - Nível 2 - Sebrae 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2018 - Como elaborar um Plano de Negócios - Sebrae 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } -->					
+							</ul>				
+						</details><!-- end ngRepeat: category in cv.categories --><details class="w3-container ng-scope" ng-repeat="category in cv.categories">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Marketing Digital</b>
+							</summary>
+							<ul class="w3-small">
+								<!-- ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2017 - Fundamentos de Marketing Online - Google 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } -->					
+							</ul>				
+						</details><!-- end ngRepeat: category in cv.categories --><details class="w3-container ng-scope" ng-repeat="category in cv.categories">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Fotografia, Comunicação Visual e Multimídia</b>
+							</summary>
+							<ul class="w3-small">
+								<!-- ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2021 - Aspectos da linguagem fotográfica - Comunicação através da imagem - Universidade Federal de São Carlos 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2020 - Produção Musical - Aplitech Foundation 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } --><li ng-repeat="course in cv.courses | filter: { category: category }" class="ng-binding ng-scope">
+									2015 - Digital Photography - Alison 
+								</li><!-- end ngRepeat: course in cv.courses | filter: { category: category } -->					
+							</ul>				
+						</details><!-- end ngRepeat: category in cv.categories -->
+						<br>
+					</div>
+					<div class="w3-container w3-card w3-white">
+						<h2 class="w3-text-grey w3-padding-16">
+							<i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-dark-gray"></i>
+							Conhecimentos Específicos
+						</h2>
+						<!-- ngRepeat: knowledge in cv.knowledges --><details class="w3-container ng-scope" ng-repeat="knowledge in cv.knowledges">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Avançado</b>
+							</summary>
+							<p class="ng-binding">HTML, CSS, JavaScript, PHP, MySQL, Flash, ActionScript, JSON, REST, SOAP, SOA, XML, XSL, Firebase, expressões regulares, PWA, SPA, segurança da informação, computação em nuvem, fotografia, protocolos de redes e sistemas, análise e desenvolvimento de sistemas, Corel Draw, Photoshop, GIMP, Inkscape, Office, Google APIs, Criptografia, Blender 3D, QR code, código de barras, Unreal Stream Server, Apache Web Server, XAMPP, IIS, FTP, gerenciamento de projetos, análise de requisitos, LGPD, OWASP, Node JS.</p>
+							<hr>
+						</details><!-- end ngRepeat: knowledge in cv.knowledges --><details class="w3-container ng-scope" ng-repeat="knowledge in cv.knowledges">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Intermediário</b>
+							</summary>
+							<p class="ng-binding">ASP, BASIC, DBASE II, SQL Server, Oracle, Progress 4GL, WebSpeed, XQuery, Rede, Arquitetura Orientada a Serviços (SOA), governança corporativa, firewalls, produção musical, eletrônica, Android, Java, Arduino, Google Cloud Platform (GCP), roteadores, IoT, WebRTC, edição de vídeo, Firebird, ERP, CRM, direito digital, análise de riscos, TSQL, administração de banco de dados, Docker, GIT, GITHub.</p>
+							<hr>
+						</details><!-- end ngRepeat: knowledge in cv.knowledges --><details class="w3-container ng-scope" ng-repeat="knowledge in cv.knowledges">
+							<summary class="w3-opacity">
+								<b class="ng-binding">Básico</b>
+							</summary>
+							<p class="ng-binding">Shell Script, Batch, COMMAND.COM, Perl, Python, VBScript, C, C++, Scrum, DevOps, Machine Learning, Inteligência de Negócios (BI), Linux, UML, ITIL, Cobitt, ciência de serviços, comunicação corporativa, design e engenharia de serviço, gestão de qualidade.</p>
+							<hr>
+						</details><!-- end ngRepeat: knowledge in cv.knowledges -->
+						<br>
+					</div>
+				<!-- End Right Column -->
+				</div>
+			<!-- End Grid -->
+			</div>
+			<!-- End Page Container -->
+		</div>
+	
+</body></html>

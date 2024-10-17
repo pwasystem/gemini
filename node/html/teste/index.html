@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS 模板</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- 侧边栏点击 -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">关闭
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">链接 1</a>
+  <a href="#" class="w3-bar-item w3-button">链接 2</a>
+  <a href="#" class="w3-bar-item w3-button">链接 3</a>
+  <a href="#" class="w3-bar-item w3-button">链接 4</a>
+  <a href="#" class="w3-bar-item w3-button">链接 5</a>
+</nav>
+
+<!-- 导航栏 -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>测试</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">团队</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">工作</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">价格</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">联系我们</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="通知">下拉菜单 <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">链接</a>
+      <a href="#" class="w3-bar-item w3-button">链接</a>
+      <a href="#" class="w3-bar-item w3-button">链接</a>
+    </div>
+  </div>
+  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="搜索"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- 小屏幕上的导航栏 -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">团队</a>
+    <a href="#work" class="w3-bar-item w3-button">工作</a>
+    <a href="#pricing" class="w3-bar-item w3-button">价格</a>
+    <a href="#contact" class="w3-bar-item w3-button">联系我们</a>
+    <a href="#" class="w3-bar-item w3-button">搜索</a>
+  </div>
+</div>
+
+<!-- 图片标题 -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="img/index/image0.jpg" alt="船" style="width:100%;min-height:350px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="跳转到 W3.CSS">学习 W3.CSS</button>
+  </div>
+</div>
+
+<!-- 模态框 -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>哦，天哪！我们刚刚向您展示了一个模态框...</h4>
+      <h5>因为我们可以 <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>很酷吧？好吧，别再逗乐了..</p>
+      <p>访问我们的 <a class="w3-text-teal" href="/w3css/default.asp">W3.CSS 教程</a> 学习更多！</p>
+    </div>
+    <footer class="w3-container w3-teal">
+      <p>模态框页脚</p>
+    </footer>
+  </div>
+</div>
+
+<!-- 团队容器 -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>我们的团队</h2>
+<p>认识一下我们的团队 - 我们的办公室老鼠：</p>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  <img src="/w3images/avatar.jpg" alt="老板" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>约翰尼·沃克</h3>
+  <p>网页设计师</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="/w3images/avatar.jpg" alt="老板" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>丽贝卡·弗莱克斯</h3>
+  <p>支持</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="/w3images/avatar.jpg" alt="老板" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>简·林戈</h3>
+  <p>老板</p>
+</div>
+
+<div class="w3-quarter">
+  <img src="/w3images/avatar.jpg" alt="老板" style="width:45%" class="w3-circle w3-hover-opacity">
+  <h3>凯·林戈</h3>
+  <p>修理工</p>
+</div>
+
+</div>
+</div>
+
+<!-- 工作行 -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>我们的工作</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="/w3images/snow.jpg" alt="雪" style="width:100%">
+  <div class="w3-container">
+  <h3>客户 1</h3>
+  <h4>交易</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="/w3images/lights.jpg" alt="灯光" style="width:100%">
+  <div class="w3-container">
+  <h3>客户 2</h3>
+  <h4>交易</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="/w3images/mountains.jpg" alt="山脉" style="width:100%">
+  <div class="w3-container">
+  <h3>客户 3</h3>
+  <h4>交易</h4>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  <p>Blablabla</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- 容器 -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- 价格行 -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>价格</h2>
+    <p>选择适合您需求的价格计划。</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">基础</p>
+        </li>
+        <li class="w3-padding-16"><b>10GB</b> 存储空间</li>
+        <li class="w3-padding-16"><b>10</b> 电子邮件</li>
+        <li class="w3-padding-16"><b>10</b> 域名</li>
+        <li class="w3-padding-16"><b>无限</b> 支持</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 10</h2>
+          <span class="w3-opacity">每月</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> 注册</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">专业版</p>
+        </li>
+        <li class="w3-padding-16"><b>25GB</b> 存储空间</li>
+        <li class="w3-padding-16"><b>25</b> 电子邮件</li>
+        <li class="w3-padding-16"><b>25</b> 域名</li>
+        <li class="w3-padding-16"><b>无限</b> 支持</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 25</h2>
+          <span class="w3-opacity">每月</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> 注册</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">高级版</p>
+        </li>
+        <li class="w3-padding-16"><b>50GB</b> 存储空间</li>
+        <li class="w3-padding-16"><b>50</b> 电子邮件</li>
+        <li class="w3-padding-16"><b>50</b> 域名</li>
+        <li class="w3-padding-16"><b>无限</b> 支持</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 50</h2>
+          <span class="w3-opacity">每月</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> 注册</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- 联系我们容器 -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">联系我们</span></div>
+      <h3>地址</h3>
+      <p>来喝杯咖啡，或者其他任何事。</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;芝加哥，美国</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;+00 1515151515</p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>&nbsp;&nbsp;test@test.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>姓名</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>电子邮件</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>留言</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>我喜欢它！</label>
+      <button type="submit" class="w3-button w3-right w3-theme">发送</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- 位置/地图的图片 -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- 页脚 -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>关注我们</h4>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <p>由 <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> 提供支持</p>
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">返回顶部</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// 侧边栏导航脚本
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// 关闭侧边栏导航
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// 用于在点击菜单按钮时切换小屏幕上的菜单
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

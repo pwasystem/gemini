@@ -1,15 +1,31 @@
-version: '3.7'
+version: '3.8'
 
 services:
   node:
-    image: ai-node
+    image: node:latest
     container_name: IAServe
-    build:
-      context: .
-      dockerfile: Dockerfile
     ports:
       - "80:80"
     volumes:
       - ./node:/node
     working_dir: /node
+    command: ["node", "index.js"]
     restart: unless-stopped
+    stdin_open: true
+    tty: true
+    environment:
+      - NODE_ENV=production
+    entrypoint: /bin/bash -c "npm install && node index.js"
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    stdin_open: true
+    tty: true
+
+volumes:
+  ollama:
