@@ -20,7 +20,7 @@ app.get('/:project/img/:archive/:file', (req, res) => sendFile(res,'html/'+req.p
 //POST
 app.post('/ai/:file', async (req, res) =>{
 	const { default: Ai } = await import('./ai.js');
-	const ai = new Ai('AIzaSyCT1F5nI3Kdg78fPL0ZJGv6AbSTAteWTZY');
+	const ai = new Ai('');
 	const { default: Jig } = await import(`./jig/${req.params.file}/jig.js`);
 	const jig = new Jig();
 	const code = await jig.run(ai,req.body);
